@@ -1,13 +1,31 @@
 .innpakning {
-width: 100%;
+ width: 100%;
+ display: flex;
 
 }
 
 .header {
   width: 100%;
+  height: 20%;
+  background-color: black;
+  color: white;
+  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
+  display: flex;
+}
+
+.logo {
+
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .innhold {
-
+display: flex;
 
 }
