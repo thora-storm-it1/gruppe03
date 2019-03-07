@@ -1,6 +1,8 @@
 .innpakning {
+
  width: 100%;
  display: flex;
+ flex-direction: row;
 
 }
 
@@ -14,6 +16,8 @@
 }
 
 .logo {
+
+
 
 
 }
@@ -59,8 +63,10 @@ li a {
 }
 
 .footer {
+  display: flex;
   height: 30%;
   width: 100%;
   background-color: black;
   color: white;
+  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
 }
