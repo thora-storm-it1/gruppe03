@@ -41,6 +41,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
 }
 
 li {
@@ -53,6 +54,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
