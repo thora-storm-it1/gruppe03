@@ -85,17 +85,54 @@ margin: auto;
 .meny {
 
 width: 100%;
+background-color:#8d6b36;
 }
 
+@media only screen and (min-width: 951px) {
 
 ul {
   list-style-type: none;
   margin: auto;
+  margin-left: 275px;
   padding: 0;
   overflow: hidden;
   background-color: #8d6b36;
   font-family: "Hansief", "Arial Black", Gadget, sans-serif;
   justify-content: : center;
+}
+
+}
+
+
+@media only screen and (max-width: 590px) {
+
+ul {
+  list-style-type: none;
+
+
+  padding: 0;
+  overflow: hidden;
+  background-color: #8d6b36;
+  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
+  justify-content: : center;
+}
+
+}
+
+
+@media only screen and (max-width: 950px) {
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  margin-left: 100px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8d6b36;
+  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
+  justify-content: : center;
+}
+
 }
 
 li {
