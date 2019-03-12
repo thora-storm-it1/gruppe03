@@ -19,45 +19,18 @@ body {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 600px)  {
+
 .logo {
 
 margin-left: 20px;
 
 }
 
-}
 
-@media only screen and (min-width: 601px)  {
-.logo {
-margin-left: 20px;
-}
-}
 
-@media only screen and (max-width: 950px) {
-.title {
 
-display: flex;
-  margin-top: 80px;
-  margin-left: 30px;
-  box-sizing: border-box;
-  font-size: 100%;
-}
-}
 
-@media only screen and (max-width: 590px) {
-.title {
 
-display: flex;
-  margin-top: 90px;
-  margin-left: 30px;
-
-  box-sizing: border-box;
-  font-size: 75%;
-}
-}
-
-@media only screen and (min-width: 951px) {
 .title {
 
 display: flex;
@@ -69,7 +42,7 @@ margin-left: 60px;
 
 
 }
-}
+
 
 .innhold {
 display: flex;
@@ -85,7 +58,7 @@ width: 100%;
 background-color:#8d6b36;
 }
 
-@media only screen and (min-width: 951px) {
+
 
 ul {
   list-style-type: none;
@@ -98,39 +71,10 @@ ul {
   justify-content: : center;
 }
 
-}
 
 
-@media only screen and (max-width: 590px) {
-
-ul {
-  list-style-type: none;
 
 
-  padding: 0;
-  overflow: hidden;
-  background-color: #8d6b36;
-  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
-  justify-content: : center;
-}
-
-}
-
-
-@media only screen and (max-width: 950px) {
-
-ul {
-  list-style-type: none;
-  margin: auto;
-  margin-left: 100px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #8d6b36;
-  font-family: "Hansief", "Arial Black", Gadget, sans-serif;
-  justify-content: : center;
-}
-
-}
 
 li {
   float: left;
