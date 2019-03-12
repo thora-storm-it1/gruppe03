@@ -20,7 +20,7 @@
       </div>
       <div class="meny">
         <ul>
-          <li><a href="index.php"> HJEM </a></li>
+          <li><a href="../index.php"> HJEM </a></li>
           <li><a href="nyheter.php"> NYHETER </a></li>
           <li><a href="tropp.php"> TROPP </a></li>
           <li><a href="sponsorer.php"> SPONSORER </a></li>
