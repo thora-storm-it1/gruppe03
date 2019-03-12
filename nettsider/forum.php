@@ -43,6 +43,11 @@
           Aliquam pretium massa ac tempus mollis. Suspendisse vel lacus dolor. Donec vulputate viverra magna, ac accumsan ante pretium at. Donec auctor sagittis enim at dapibus. Aenean tempor sodales ante, ullamcorper feugiat urna fermentum nec. Mauris eu ultrices libero. Nulla quis volutpat mauris. Proin consectetur justo enim, non mollis augue feugiat non. Etiam malesuada erat et turpis fringilla iaculis. Vestibulum nec consequat tortor. Proin dignissim consequat sagittis. Praesent porttitor a mauris non mattis. Sed ultricies, augue in efficitur feugiat, nulla quam consectetur enim, ac pretium libero tellus non leo. Vivamus mollis, arcu vitae consequat gravida, quam arcu sagittis urna, eu viverra magna lorem id nunc.
         </p>
 
+        <?php
+          for($i=0; $i<5; $i++)  {
+            echo "Det fungerer, Rosenborg er best";
+          }
+        ?>
 
       </div>
       <div class="footer">
