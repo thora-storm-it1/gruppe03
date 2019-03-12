@@ -20,13 +20,13 @@
       </div>
       <div class="meny">
         <ul>
-          <li><a href="index.html"> HJEM </a></li>
-          <li><a href="nyheter.html"> NYHETER </a></li>
-          <li><a href="tropp.html"> TROPP </a></li>
-          <li><a href="sponsorer.html"> SPONSORER </a></li>
-          <li><a href="forum.html"> FORUM </a></li>
-          <li><a href="kamper.html"> KAMPER </a></li>
-          <li><a href="tabell.html"> TABELL </a></li>
+          <li><a href="index.php"> HJEM </a></li>
+          <li><a href="nyheter.php"> NYHETER </a></li>
+          <li><a href="tropp.php"> TROPP </a></li>
+          <li><a href="sponsorer.php"> SPONSORER </a></li>
+          <li><a href="forum.php"> FORUM </a></li>
+          <li><a href="kamper.php"> KAMPER </a></li>
+          <li><a href="tabell.php"> TABELL </a></li>
           <li><a class="meny_styles/active"> OM RBK </a></li>
         </ul>
       </div>
