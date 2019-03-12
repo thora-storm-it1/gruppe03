@@ -113,13 +113,10 @@
 
       </div>
       <div class="footer">
-        <h4> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h4>
-        <br>
-        <h4>
-          KONTAKT OSS: <br>
-          TLF: <br>
-          EPOST: <br>
-        </h4>
+        <h5> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h5>
+        <p> KONTAKT OSS PÅ: </p>
+        <p> TLF: +47 191 71 917 </p>
+        <p> EPOST: rbk@fake-epost.no </p>
       </div>
     </div>
   </body>
