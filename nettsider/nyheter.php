@@ -1,7 +1,7 @@
 <!doctype.html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles/stilark.css">
+    <link rel="stylesheet" href="../styles/stilark.css">
     <meta charset="utf-8">
     <title> Rosenborg Ballklub </title>
     <link rel="icon" href="bilder/rosenborg.png">
