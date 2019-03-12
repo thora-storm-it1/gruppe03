@@ -22,7 +22,7 @@
         <ul>
           <li><a href="../index.php"> HJEM </a></li>
           <li><a href="nyheter.php"> NYHETER </a></li>
-          <li><a class="meny_styles/active"> TROPP </a></li>
+          <li><a class="meny_active"> TROPP </a></li>
           <li><a href="sponsorer.php"> SPONSORER </a></li>
           <li><a href="forum.php"> FORUM </a></li>
           <li><a href="kamper.php"> KAMPER </a></li>

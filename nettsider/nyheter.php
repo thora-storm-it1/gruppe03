@@ -21,7 +21,7 @@
       <div class="meny">
         <ul>
           <li><a href="../index.php"> HJEM </a></li>
-          <li><a class="meny_styles/active"> NYHETER </a></li>
+          <li><a class="meny_active"> NYHETER </a></li>
           <li><a href="tropp.php"> TROPP </a></li>
           <li><a href="sponsorer.php"> SPONSORER </a></li>
           <li><a href="forum.php"> FORUM </a></li>

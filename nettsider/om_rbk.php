@@ -27,7 +27,7 @@
           <li><a href="forum.php"> FORUM </a></li>
           <li><a href="kamper.php"> KAMPER </a></li>
           <li><a href="tabell.php"> TABELL </a></li>
-          <li><a class="meny_styles/active"> OM RBK </a></li>
+          <li><a class="meny_active"> OM RBK </a></li>
         </ul>
       </div>
       <div class="innhold">
