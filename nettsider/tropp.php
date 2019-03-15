@@ -45,6 +45,11 @@
             die("Noe gikk galt: " . $kobling->connect_error);
           }
 
+          $sql = "SELECT * FROM spiller";
+          $resultat = $kobling->query($sql);
+
+          echo "Spørringen $sql ga $resultat-num_rows rader";
+
         ?>
 
       </div>
