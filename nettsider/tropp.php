@@ -35,7 +35,7 @@
           $tjener = "localhost";
           $brukernavn = "brukernavn"
           $passord = "";
-          $database = "rosenborg";
+          $database = "";
 
           //Opretter en kobling
           $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
