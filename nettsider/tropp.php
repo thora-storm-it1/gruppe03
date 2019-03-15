@@ -30,6 +30,23 @@
       </div>
       <div class="innhold">
 
+        <?php
+          //Tilkoblingsinformasjon
+          $tjener = "localhost";
+          $brukernavn = "brukernavn"
+          $passord = "";
+          $database = "rosenborg";
+
+          //Opretter en kobling
+          $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
+
+          //Sjekker om koblingen fungerer
+          if (kobling->connect_error) {
+            die("Noe gikk galt: " . $kobling->connect_error);
+          }
+
+        ?>
+
       </div>
       <div class="footer">
         <h1> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h1>
