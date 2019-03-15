@@ -33,9 +33,9 @@
         <?php
           //Tilkoblingsinformasjon
           $tjener = "localhost";
-          $brukernavn = "brukernavn"
+          $brukernavn = "root";
           $passord = "";
-          $database = "";
+          $database = "rbk";
 
           //Opretter en kobling
           $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
