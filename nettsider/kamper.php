@@ -24,7 +24,6 @@
           <li><a href="nyheter.php"> NYHETER </a></li>
           <li><a href="tropp.php"> TROPP </a></li>
           <li><a href="sponsorer.php"> SPONSORER </a></li>
-          <li><a href="forum.php"> FORUM </a></li>
           <li><a class="meny_active"> KAMPER </a></li>
           <li><a href="tabell.php"> TABELL </a></li>
           <li><a href="om_rbk.php"> OM RBK </a></li>
