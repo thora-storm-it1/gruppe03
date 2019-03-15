@@ -14,7 +14,7 @@
         <div class="logo">
           <img class="logo1" src="../bilder/rosenborg.png" width="200px" height="200px">
         </div>
-        <a href="../index.php"> <div class="title">
+        <a class="title_link" href="../index.php"> <div class="title">
           <h1> ROSENBORG BALLKLUB </h1>
         </div> </a>
       </div>
