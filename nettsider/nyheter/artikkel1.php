@@ -1,7 +1,12 @@
 <!doctype.html>
 <html>
 <head>
-<link rel="stylesheet" href="stilark.css">
+<link rel="stylesheet" href="../styles/stilark.css">
+<meta charset="utf-8">
+<title> Rosenborg Ballklub </title>
+<link rel="icon" href="../bilder/rosenborg.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title></title>
 </head>
 <body>

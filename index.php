@@ -49,19 +49,19 @@
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="bilder/marbella.jpg" style="width:100%">
-            <div class="text"> Rosenborg på treningsleir i Marbella, Spania, denne uken for å gjøre seg klare før sesongstart. Les mer <a href="nettsider/nyheter.php">her</a> . Foto: ROSENBORG </div>
+            <div class="text"> Rosenborg på treningsleir i Marbella, Spania, denne uken for å gjøre seg klare før sesongstart. Les mer <a href="nettsider/nyheter/artikkel1.php">her</a> . Foto: ROSENBORG </div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
             <img src="bilder/ranheim.jpg" style="width:100%">
-            <div class="text"> Rosenborg tapte treningskampen mot Ranheim torsdag 28. februar. Les mer <a href="nettsider/nyheter.php">her</a> . Foto: EIRIK EVENSEN </div>
+            <div class="text"> Rosenborg tapte treningskampen mot Ranheim torsdag 28. februar. Les mer <a href="nettsider/nyheter/artikkel2.php">her</a> . Foto: EIRIK EVENSEN </div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
             <img src="bilder/brann.jpg" style="width:100%">
-            <div class="text"> Neste treningskamp for Rosenborg blir mot Brann den 10. mars.  Les mer <a href="nettsider/nyheter.php">her</a> . Foto: ARNE RISTESUND </div>
+            <div class="text"> Neste treningskamp for Rosenborg blir mot Brann den 10. mars.  Les mer <a href="nettsider/nyheter/artikkel3.php">her</a> . Foto: ARNE RISTESUND </div>
           </div>
 
           <!-- Next and previous buttons -->
