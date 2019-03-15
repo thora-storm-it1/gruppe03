@@ -24,8 +24,7 @@
           <li><a href="nettsider/nyheter.php"> NYHETER </a></li>
           <li><a href="nettsider/tropp.php"> TROPP </a></li>
           <li><a href="nettsider/sponsorer.php"> SPONSORER </a></li>
-          <li><a href="nettsider/kamper.php"> KAMPER </a></li>
-          <li><a href="nettsider/tabell.php"> TABELL </a></li>
+          <li><a href="nettsider/tabell.php"> TABELL/KAMPER </a></li>
           <li><a href="nettsider/om_rbk.php"> OM RBK </a></li>
         </ul>
       </div>

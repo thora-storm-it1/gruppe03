@@ -14,9 +14,9 @@
         <div class="logo">
           <img class="logo1" src="../bilder/rosenborg.png" width="200px" height="200px">
         </div>
-        <a href="../index.php"> <div class="title">
+        <div class="title">
           <h1> ROSENBORG BALLKLUB </h1>
-        </div> </a>
+        </div>
       </div>
       <div class="meny">
         <ul>
@@ -24,8 +24,7 @@
           <li><a href="nyheter.php"> NYHETER </a></li>
           <li><a href="tropp.php"> TROPP </a></li>
           <li><a href="sponsorer.php"> SPONSORER </a></li>
-          <li><a href="kamper.php"> KAMPER </a></li>
-          <li><a href="tabell.php"> TABELL </a></li>
+          <li><a href="tabell.php"> TABELL/KAMPER </a></li>
           <li><a class="meny_active"> OM RBK </a></li>
         </ul>
       </div>
