@@ -41,7 +41,7 @@
           $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
 
           //Sjekker om koblingen fungerer
-          if (kobling->connect_error) {
+          if ($kobling->connect_error) {
             die("Noe gikk galt: " . $kobling->connect_error);
           }
 
