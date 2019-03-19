@@ -40,29 +40,53 @@
           //Opretter en kobling
           $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
 
+          $kobling->set_charset("utf8");
+
           //Sjekker om koblingen fungerer
           if ($kobling->connect_error) {
             die("Noe gikk galt: " . $kobling->connect_error);
           }
 
-          $sql = "SELECT * FROM spiller";
+          //Definerer SQL-spørringen og henter ut resultatet
+          $sql = "SELECT * FROM spiller ORDER BY spiller-posisjon";
           $resultat = $kobling->query($sql);
 
-          echo "Spørringen $sql ga $resultat->num_rows rader";
+          echo "<br>";
 
-          for ($i=0; $i < $resultat->num_rows; $i++) {
-            while($rad = $resultat->fetch_assoc()) {
+          //Starter tabellen
+          echo "<table>";
+          //Lager overskrifter
+          echo "<tr>
+                  <th> Fornavn </th>
+                  <th> Etternavn </th>
+                  <th> Posisjon </th>
+                  <th> Draktnummer </th>
+                  <th> Nasjonalitet </th>
+                </tr>";
 
-              $spillerid = $rad["spiller-id"];
-              $spillerfornavn = $rad["spiller-fornavn"];
-              $spilleretternavn = $rad["spiller-etternavn"];
-              $spillerposisjon = $rad["spiller-posisjon"];
-              $spillernummer = $rad["spiller-nummer"];
-              $spillernasjonalitet = $rad["spiller-nasjonalitet"];
 
-              echo "<p> $spillerfornavn $spilleretternavn er $spillerposisjon på Rosenborg fra $spillernasjonalitet. </p>";
-            }
-          }
+                  //Henter ut resultatene fra en rad og legger dem i et array
+                  while($rad = $resultat->fetch_assoc()) {
+                    //Lagrer variablene i en rad hver for seg
+                    $spillerid = $rad["spiller-id"];
+                    $spillerfornavn = $rad["spiller-fornavn"];
+                    $spilleretternavn = $rad["spiller-etternavn"];
+                    $spillerposisjon = $rad["spiller-posisjon"];
+                    $spillernummer = $rad["spiller-nummer"];
+                    $spillernasjonalitet = $rad["spiller-nasjonalitet"];
+
+                    //Skriver ut verdiene i tabellen
+                    echo "<tr>
+                            <td> $spillerfornavn </td>
+                            <td> $spilleretternavn </td>
+                            <td> $spillerposisjon </td>
+                            <td> $spillernummer </td>
+                            <td> $spillernasjonalitet </td>
+                          </tr>";
+
+                  }
+          //Avslutter tabellen
+          echo "</table>";
         ?>
 
       </div>
