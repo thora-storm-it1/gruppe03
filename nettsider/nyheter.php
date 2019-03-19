@@ -30,7 +30,7 @@
       </div>
       <div class="innhold">
 
-<h2>NYHETER:</h2>
+<h2>NYHETER</h2>
 
 <a href="nyheter/artikkel1.php">
 <div class="nyhet1">
