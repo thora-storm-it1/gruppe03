@@ -48,7 +48,7 @@
           }
 
           //Definerer SQL-spørringen og henter ut resultatet
-          $sql = "SELECT * FROM spiller ORDER BY spiller-posisjon";
+          $sql = "SELECT * FROM spiller";
           $resultat = $kobling->query($sql);
 
           echo "<br>";
