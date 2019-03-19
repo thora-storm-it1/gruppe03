@@ -32,7 +32,7 @@
         <p>
 
         </p>
-<h2>NYHETER:</h2>
+<h2>NYHETER</h2>
 <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
         <!-- Slideshow container -->
         <div class="slideshow-container">
