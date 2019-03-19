@@ -48,8 +48,21 @@
           $sql = "SELECT * FROM spiller";
           $resultat = $kobling->query($sql);
 
-          echo "Spørringen $sql ga $resultat-num_rows rader";
+          echo "Spørringen $sql ga $resultat->num_rows rader";
 
+          for ($i=0; $i < $resultat->num_rows; $i++) {
+            while($rad = $resultat->fetch_assoc()) {
+
+              $spillerid = $rad["spiller-id"];
+              $spillerfornavn = $rad["spiller-fornavn"];
+              $spilleretternavn = $rad["spiller-etternavn"];
+              $spillerposisjon = $rad["spiller-posisjon"];
+              $spillernummer = $rad["spiller-nummer"];
+              $spillernasjonalitet = $rad["spiller-nasjonalitet"];
+
+              echo "<p> $spillerfornavn $spilleretternavn er $spillerposisjon på Rosenborg fra $spillernasjonalitet. </p>";
+            }
+          }
         ?>
 
       </div>
