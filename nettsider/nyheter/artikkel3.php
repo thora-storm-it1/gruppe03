@@ -33,7 +33,7 @@
       </div>
       <div class="innhold">
 <br><br>
-<iframe src="https://www.smp.no/ntb/sport/2019/03/10/Brann-senket-RBK-etter-Strand-scoring-18629185.ece" height="100%" width="75%" style="border:none;"></iframe>
+<iframe src="https://www.smp.no/ntb/sport/2019/03/10/Brann-senket-RBK-etter-Strand-scoring-18629185.ece" height="280%" width="100%" style="border:none;"></iframe>
         <?php
 
 
@@ -74,7 +74,7 @@ if(isset($_POST["leggtil"])) {
  }
         ?>
 
-        <h2>Kommentarer:</h2>
+        <h3>KOMMENTARER:</h3>
         <br>
 
         <?php

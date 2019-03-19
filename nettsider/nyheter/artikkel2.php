@@ -34,7 +34,7 @@
       <div class="innhold">
 <br><br>
 
-<iframe src="http://www.rbkweb.no/vis/13970" height="100%" width="75%" style="border:none;"></iframe>
+<iframe src="http://www.rbkweb.no/vis/13970" height="180%" width="100%" style="border:none;"></iframe>
         <?php
 
 
@@ -75,7 +75,7 @@ if(isset($_POST["leggtil"])) {
  }
         ?>
 
-        <h2>Kommentarer:</h2>
+        <h3>KOMMENTARER:</h3>
         <br>
 
         <?php
