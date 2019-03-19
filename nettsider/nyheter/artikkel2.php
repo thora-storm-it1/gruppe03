@@ -25,10 +25,10 @@
         <ul>
           <li><a href="../../index.php"> HJEM </a></li>
           <li><a class="meny_active"> NYHETER </a></li>
-          <li><a href="tropp.php"> TROPP </a></li>
-          <li><a href="sponsorer.php"> SPONSORER </a></li>
-          <li><a href="tabell.php"> TABELL/KAMPER </a></li>
-          <li><a href="om_rbk.php"> OM RBK </a></li>
+          <li><a href="../tropp.php"> TROPP </a></li>
+          <li><a href="../sponsorer.php"> SPONSORER </a></li>
+          <li><a href="../tabell.php"> TABELL/KAMPER </a></li>
+          <li><a href="../om_rbk.php"> OM RBK </a></li>
         </ul>
       </div>
       <div class="innhold">
