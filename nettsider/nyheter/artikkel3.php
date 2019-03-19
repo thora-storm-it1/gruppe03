@@ -33,6 +33,7 @@
       </div>
       <div class="innhold">
 <br><br>
+<iframe src="https://www.smp.no/ntb/sport/2019/03/10/Brann-senket-RBK-etter-Strand-scoring-18629185.ece" height="100%" width="75%" style="border:none;"></iframe>
         <?php
 
 
@@ -86,12 +87,12 @@ if(isset($_POST["leggtil"])) {
           $name = $rad["name"];
           $comment = $rad["comment"];
 
-              // echo "<div class="navn">";
-               echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
-            //   echo "</div>";
-            //   echo "<div class="kommentar">";
-               echo "$comment <br><br>";
-              // echo "</div>";
+          echo "<div class='navn'>";
+          echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
+          echo "</div>";
+          echo "<div class='kommentar'>";
+          echo "$comment <br><br>";
+          echo "</div>";
 
 
         }

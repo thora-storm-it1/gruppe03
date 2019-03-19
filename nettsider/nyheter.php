@@ -30,8 +30,9 @@
       </div>
       <div class="innhold">
 
-<a href="../scripts/viewcomments.php">LINK</a>
-<a href="../scripts/commentform.php">LINK2</a>
+<a href="nyheter/artikkel1.php">Artikkel 1</a>
+<a href="nyheter/artikkel2.php">Artikkel 2</a>
+<a href="nyheter/artikkel3.php">Artikkel 3</a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum enim lorem. Praesent ornare ipsum turpis, id congue libero tempus sit amet. Nam rhoncus facilisis elit a facilisis. In vitae risus ac orci hendrerit dictum. Aliquam fermentum orci in augue tempus, nec bibendum tellus dapibus. Sed sollicitudin, magna eu hendrerit condimentum, risus ligula auctor mauris, in fermentum arcu nisi non dolor. In accumsan quis dolor ut cursus. Sed porttitor odio sed ullamcorper luctus. Vivamus pulvinar finibus elit. Fusce metus metus, varius non pulvinar porta, placerat placerat nisi. Nam sed lorem sed urna imperdiet efficitur. Vestibulum a sagittis tortor.
 
