@@ -24,7 +24,7 @@
       <div class="meny">
         <ul>
           <li><a href="../../index.php"> HJEM </a></li>
-          <li><a class="meny_active"> NYHETER </a></li>
+          <li><a href="../nyheter.php"> NYHETER </a></li>
           <li><a href="../tropp.php"> TROPP </a></li>
           <li><a href="../sponsorer.php"> SPONSORER </a></li>
           <li><a href="../tabell.php"> TABELL/KAMPER </a></li>
@@ -108,7 +108,7 @@ if(isset($_POST["leggtil"])) {
                 }
               </script>
 
-<form  method='post'>
+<form id="kommentarfelt" method='post'>
 
   Navn: <br>
   <input type="text" name="name" placeholder="Ditt navn.."><br><br>
