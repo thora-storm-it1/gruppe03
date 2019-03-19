@@ -33,6 +33,7 @@
       </div>
       <div class="innhold">
 <br><br>
+<iframe src="https://www.rbk.no/nyheter/treningskamp-mot-ranheim-2019" height="100%" width="75%" style="border:none;"></iframe>
         <?php
 
 
@@ -86,12 +87,12 @@ if(isset($_POST["leggtil"])) {
           $name = $rad["name"];
           $comment = $rad["comment"];
 
-              // echo "<div class="navn">";
+               echo "<div class='navn'>";
                echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
-            //   echo "</div>";
-            //   echo "<div class="kommentar">";
+               echo "</div>";
+               echo "<div class='kommentar'>";
                echo "$comment <br><br>";
-              // echo "</div>";
+               echo "</div>";
 
 
         }

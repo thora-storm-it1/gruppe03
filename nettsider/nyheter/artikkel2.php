@@ -33,6 +33,8 @@
       </div>
       <div class="innhold">
 <br><br>
+
+<iframe src="http://www.rbkweb.no/vis/13970" height="100%" width="75%" style="border:none;"></iframe>
         <?php
 
 
@@ -86,12 +88,12 @@ if(isset($_POST["leggtil"])) {
           $name = $rad["name"];
           $comment = $rad["comment"];
 
-              //echo "<class="navn">";
-               echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
-            //   echo "</div>";
-            //   echo "<div class="kommentar">";
-               echo "$comment <br><br>";
-              // echo "</div>";
+          echo "<div class='navn'>";
+          echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
+          echo "</div>";
+          echo "<div class='kommentar'>";
+          echo "$comment <br><br>";
+          echo "</div>";
 
 
         }
