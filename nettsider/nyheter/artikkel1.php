@@ -1,9 +1,5 @@
 
 
-<?php
-include '../../scripts/dph.inc.php';
-include '../../scripts/comments.inc.php';
- ?>
 
 <!doctype.html>
 <html>
@@ -19,7 +15,7 @@ include '../../scripts/comments.inc.php';
     <div class="innpakning">
       <div class="header">
         <div class="logo">
-          <img class="logo1" src="../bilder/rosenborg.png" width="200px" height="200px">
+          <img class="logo1" src="../../bilder/rosenborg.png" width="200px" height="200px">
         </div>
         <div class="title">
           <h1> ROSENBORG BALLKLUB </h1>
@@ -27,7 +23,7 @@ include '../../scripts/comments.inc.php';
       </div>
       <div class="meny">
         <ul>
-          <li><a href="../index.php"> HJEM </a></li>
+          <li><a href="../../index.php"> HJEM </a></li>
           <li><a class="meny_active"> NYHETER </a></li>
           <li><a href="tropp.php"> TROPP </a></li>
           <li><a href="sponsorer.php"> SPONSORER </a></li>
@@ -36,7 +32,7 @@ include '../../scripts/comments.inc.php';
         </ul>
       </div>
       <div class="innhold">
-<br><br><br>
+<br><br>
         <?php
 
 
@@ -76,6 +72,30 @@ if(isset($_POST["leggtil"])) {
 
  }
         ?>
+
+        <h2>Kommentarer:</h2>
+        <br>
+
+        <?php
+        $sql = "SELECT * FROM comments ";
+        $resultat = $kobling->query($sql);
+
+
+
+        while($rad = $resultat->fetch_assoc()) {
+          $name = $rad["name"];
+          $comment = $rad["comment"];
+
+
+               echo "$name            ---         ";
+               echo "$comment <br><br>";
+
+
+        }
+
+        echo "</table>"; // Avslutter tabellen
+
+        ?>
         <script>
                 //thank you god. I promise never to use PHP again
                 if ( window.history.replaceState ) {
@@ -93,30 +113,7 @@ if(isset($_POST["leggtil"])) {
 </form>
 
 
-<?php
-$sql = "SELECT * FROM comments ";
-$resultat = $kobling->query($sql);
 
-echo "<table>"; // Starter tabellen
-echo "<tr>"; // Lager en rad med overskrifter
-    echo "<th></th>";
-    echo "<th></th>";
-echo "</tr>";
-
-while($rad = $resultat->fetch_assoc()) {
-  $name = $rad["name"];
-  $comment = $rad["comment"];
-
-    echo "<tr>";
-       echo "<td>$name</td>";
-       echo "<td>$comment</td>";
-    echo "</tr>";
-
-}
-
-echo "</table>"; // Avslutter tabellen
-
-?>
       </div>
       <div class="footer">
         <h1> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h1>
