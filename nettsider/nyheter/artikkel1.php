@@ -25,15 +25,15 @@
         <ul>
           <li><a href="../../index.php"> HJEM </a></li>
           <li><a class="meny_active"> NYHETER </a></li>
-          <li><a href="tropp.php"> TROPP </a></li>
-          <li><a href="sponsorer.php"> SPONSORER </a></li>
-          <li><a href="tabell.php"> TABELL/KAMPER </a></li>
-          <li><a href="om_rbk.php"> OM RBK </a></li>
+          <li><a href="../tropp.php"> TROPP </a></li>
+          <li><a href="../sponsorer.php"> SPONSORER </a></li>
+          <li><a href="../tabell.php"> TABELL/KAMPER </a></li>
+          <li><a href="../om_rbk.php"> OM RBK </a></li>
         </ul>
       </div>
       <div class="innhold">
 <br><br>
-<iframe src="https://www.rbk.no/nyheter/treningskamp-mot-ranheim-2019" height="100%" width="75%" style="border:none;"></iframe>
+<iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="100%" style="border:none;"></iframe>
         <?php
 
 
@@ -74,7 +74,7 @@ if(isset($_POST["leggtil"])) {
  }
         ?>
 
-        <h2>Kommentarer:</h2>
+          <h3>KOMMENTARER:</h3>
         <br>
 
         <?php
