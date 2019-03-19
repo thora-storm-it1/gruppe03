@@ -65,7 +65,7 @@ if(isset($_POST["leggtil"])) {
 
 
    if($kobling->query($sql)) {
-       echo "Spørringen $sql ble gjennomført.";
+       // echo "Spørringen $sql ble gjennomført.";
    } else {
        echo "Noe gikk galt med spørringen $sql ($kobling->error).";
    }
@@ -86,9 +86,12 @@ if(isset($_POST["leggtil"])) {
           $name = $rad["name"];
           $comment = $rad["comment"];
 
-
-               echo "$name            ---         ";
+              // echo "<div class="navn">";
+               echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
+            //   echo "</div>";
+            //   echo "<div class="kommentar">";
                echo "$comment <br><br>";
+              // echo "</div>";
 
 
         }
@@ -96,6 +99,7 @@ if(isset($_POST["leggtil"])) {
         echo "</table>"; // Avslutter tabellen
 
         ?>
+        <br><br>
         <script>
                 //thank you god. I promise never to use PHP again
                 if ( window.history.replaceState ) {
@@ -106,9 +110,9 @@ if(isset($_POST["leggtil"])) {
 <form  method='post'>
 
   Navn: <br>
-  <input type="text" name="name"><br><br>
+  <input type="text" name="name" placeholder="Ditt navn.."><br><br>
   Kommentar: <br>
-  <textarea name='comment'></textarea><br>
+  <textarea name='comment' placeholder="Skriv kommentar.."></textarea><br>
   <input type='submit'  name='leggtil' value="Legg til"><br>
 </form>
 
