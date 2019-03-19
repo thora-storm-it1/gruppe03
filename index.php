@@ -41,7 +41,7 @@
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="bilder/marbella.jpg" style="width:100%">
-            <div class="text"> Rosenborg på treningsleir i Marbella, Spania, denne uken for å gjøre seg klare før sesongstart. Les mer <a href="nettsider/nyheter/artikkel1.php">her</a> . Foto: ROSENBORG </div>
+            <div class="text"> <h4>ROSENBORG PÅ TRENINGSLEIR I MARBELLA, SPANIA, DENNE UKEN FOR Å GJØRE SEG KLARE FØR SESONGSTART. LES MER  </h4> <a href="nettsider/nyheter/artikkel1.php">her</a> . Foto: ROSENBORG </div>
           </div>
 
           <div class="mySlides fade">

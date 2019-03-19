@@ -51,7 +51,16 @@ h3 {
 font-family: "Hansief", "Arial Black", Gadget, sans-serif;
 font-size: 70px;
 align-self: center;
+color: Black;
+text-decoration: none;
 }
+
+h4 {
+font-family: "Hansief", "Arial Black", Gadget, sans-serif;
+
+
+}
+
 
 .title {
 
@@ -274,4 +283,9 @@ textarea {
 }
 input[type=submit]:hover {
   background-color: #695028;
+}
+
+/* css for nyheter.php */
+a nyhet1 {
+  width: 50%;
 }

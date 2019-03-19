@@ -30,33 +30,35 @@
       </div>
       <div class="innhold">
 
-<a href="nyheter/artikkel1.php">Artikkel 1</a>
-<a href="nyheter/artikkel2.php">Artikkel 2</a>
-<a href="nyheter/artikkel3.php">Artikkel 3</a>
+<h2>NYHETER:</h2>
 
-<a href="nyheter/artikkel1.php"><div class="nyhet1">
+<a href="nyheter/artikkel1.php">
+<div class="nyhet1">
 <div class="bilde1">
+    <img src="../bilder/marbella.jpg" width="100%">
 </div>
 <div class="tittel1">
-  <img src="../bilder/marbella.jpg" alt="">
+<h3>TIL TRENINGSLEIR I MARBELLA</h3>
 </div>
 </div></a>
 
 <a href="nyheter/artikkel2.php">
 <div class="nyhet2">
   <div class="bilde2">
-<img src="../bilder/ranheim.jpg" alt="">
+<img src="../bilder/ranheim.jpg" width="100%">
   </div>
   <div class="tittel2">
+    <h3>TAP MOT RANHEIM</h3>
 </div>
 </div> </a>
 
 <a href="nyheter/artikkel3.php">
 <div class="nyhet3">
   <div class="bilde3">
-<img src="../bilder/brann.jpg" alt="">
+<img src="../bilder/brann.jpg" width="100%">
   </div>
   <div class="tittel3">
+    <h3>NYTT TAP</h3>
     </div>
 </div>
 </a>
