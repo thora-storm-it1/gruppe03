@@ -29,7 +29,7 @@
         </ul>
       </div>
       <div class="innhold">
-        <iframe src="https://vglive.no/turneringer/eliteserien-2019/1877/tabell" height="100%" width="75%" style="border:none;"></iframe>
+        <iframe class="tabell" src="https://vglive.no/turneringer/eliteserien-2019/1877/tabell" height="100%" width="75%" style="border:none;"></iframe>
       </div>
       <div class="footer">
         <h1> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h1>
