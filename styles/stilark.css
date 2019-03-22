@@ -147,6 +147,13 @@ li a:hover {
   background-color: black;
   color: white;
   font-family: "Hansief", "Arial Black", Gadget, sans-serif;
+
+}
+
+h5 {
+  align-self: center;
+  justify-content: center;
+
 }
 
 * {box-sizing:border-box}
