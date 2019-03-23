@@ -10,11 +10,27 @@
   </head>
   <body>
     <div class="innpakning">
-      <div class="header">
-          <img src="bilder/rosenborg.png" width="200px" height="auto">
+      <div class="topptekst">
+          <img src="bilder/rosenborg.png" width="300px" height="auto">
           <h1> ROSENBORG BALLKLUB </h1>
       </div>
-      <div class="meny">
+      <!-- Nedfallsmeny fra w3schools (https://www.w3schools.com/howto/howto_css_dropdown.asp) begynner-->
+      <div class="meny1">
+        <div class="dropdown">
+          <button class="dropbtn"> Meny </button>
+          <div class="dropdown-content">
+            <a class="meny_active" href="#home"> HJEM </a>
+            <a href="nettsider/nyheter.php"> NYHETER </a>
+            <a href="nettsider/tropp.php"> TROPP </a>
+            <a href="nettsider/sponsorer.php"> SPONSORER </a>
+            <a href="nettsider/tabell.php"> TABELL/KAMPER </a>
+            <a href="nettsider/om_rbk.php"> OM RBK </a>
+          </div>
+        </div>
+      </div>
+      <!-- Nedfallsmeny fra w3schools (https://www.w3schools.com/howto/howto_css_dropdown.asp) slutter -->
+      <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) begynner -->
+      <div class="meny2">
         <ul>
           <li><a class="meny_active" href="#home"> HJEM </a></li>
           <li><a href="nettsider/nyheter.php"> NYHETER </a></li>
@@ -24,9 +40,10 @@
           <li><a href="nettsider/om_rbk.php"> OM RBK </a></li>
         </ul>
       </div>
+      <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
         <h2> NYHETER </h2>
-        <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) starter -->
+        <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) begynner -->
         <!-- Slideshow container -->
         <div class="slideshow-container">
 
@@ -94,7 +111,7 @@
         </script>
         <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
       </div>
-      <div class="footer">
+      <div class="bunntekst">
         <h5> Dette er en UOFFISIELL nettside laget som et skoleprosjekt. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a hred="www.rbk.no" target="_blank">HER</a>. </h5>
         <p> KONTAKT OSS PÅ: </p>
         <p> TLF: +47 191 71 917 </p>

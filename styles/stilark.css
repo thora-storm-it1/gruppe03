@@ -1,0 +1,99 @@
+body  {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+  .innpakning {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+    .topptekst {
+      padding: 15px;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      text-align: center;
+    }
+    .meny1 {
+      background-color: #8E6B33;
+      height: 50px;
+    }
+      .dropbtn {
+        background-color: #8E6B33;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #8E6B33;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        font-size: 15px;
+      }
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #715528;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:hover .dropbtn {
+        background-color: #715528;
+      }
+    .meny2 {
+      display: none;
+    }
+
+@media only screen and (orientation: landscape) {
+  body  {
+    padding: 0px;
+    margin: 0px;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+  }
+    .innpakning {
+      display: flex;
+      flex-flow: column nowrap;
+    }
+      .topptekst  {
+        padding: 15px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+      }
+        .topptekst img  {
+          margin-right: 10px;
+        }
+      .meny1 {
+        display: none;
+      }
+      .meny2 {
+        display: block;
+        position: sticky;
+        top: 0;
+        background-color: #8E6B33;
+        padding: 20px;
+        font-size: 15px;
+      }
+
+}
