@@ -213,6 +213,8 @@ body  {
 
 
 
+
+
 /* Når bredden er større en høyden gjør den dette i tillegg, og om det står det samme som over så er det dette som  */
 @media only screen and (orientation: landscape) {
   body  {
