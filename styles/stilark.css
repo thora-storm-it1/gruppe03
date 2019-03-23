@@ -7,7 +7,7 @@ body  {
 }
   .innpakning {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
     .topptekst {
       padding: 15px;
@@ -61,12 +61,161 @@ body  {
     .meny2 {
       display: none;
     }
+      .meny_active {
+        background-color: #715528;
+      }
+    .innhold {
+      padding: 15px;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      text-align: center;
+      background-color: white;
+      color: black;
+    }
+      * {box-sizing:border-box}
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        /* Hide the images by default */
+        .mySlides {
+          display: none;
+        }
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          margin-top: -22px;
+          padding: 16px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        /* Position the "previous button" to the left */
+        .prev {
+          left: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+          font-family: sans-serif;
+          font-weight: bold;
+          color: black;
+          text-shadow: 2px 2px 4px white;
+        }
+        .text a {
+          color: white;
+          text-shadow: 2px 2px 50px black;
+        }
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+          font-family: sans-serif;
+        }
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        @-webkit-keyframes fade {
+          from {opacity: .4}
+          to {opacity: 1}
+        }
+        @keyframes fade {
+          from {opacity: .4}
+          to {opacity: 1}
+        }
+    .bunntekst {
+      padding: 15px;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      text-align: center;
+    }
+      .bunntekst p {
+        font-weight: bold;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        width: 55px;
+      }
+      .fa:hover {
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
 
+
+
+/* Når bredden er større en høyden gjør den dette i tillegg, og om det står det samme som over så er det dette som  */
 @media only screen and (orientation: landscape) {
   body  {
     padding: 0px;
     margin: 0px;
-    background-color: blue;
+    background-color: black;
     color: white;
     font-family: sans-serif;
   }
@@ -92,8 +241,144 @@ body  {
         position: sticky;
         top: 0;
         background-color: #8E6B33;
-        padding: 20px;
-        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+          ul li {
+            display: inline;
+          }
+          ul a {
+            padding: 15px 30px;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: none;
+            background-color: #8E6B33;
+          }
+          ul a:hover {
+            background-color: #715528;
+          }
+          .meny_active {
+            background-color: #715528;
+          }
+      .innhold {
+        padding: 15px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: white;
+        color: black;
+      }
+        .innhold h2 {
+          font-size: 40px;
+        }
+        * {box-sizing:border-box}
+          /* Slideshow container */
+          .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+          }
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+          }
+          /* Next & previous buttons */
+          .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+          }
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          /* Position the "previous button" to the left */
+          .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+          /* Caption text */
+          .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: black;
+            text-shadow: 2px 2px 4px white;
+          }
+          .text a {
+            color: white;
+            text-shadow: 2px 2px 50px black;
+          }
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            font-family: sans-serif;
+          }
+          /* The dots/bullets/indicators */
+          .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+          /* Fading animation */
+          .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+          @-webkit-keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+          }
+          @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+          }
+      .bunntekst {
+        padding: 15px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
       }
 
 }

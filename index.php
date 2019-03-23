@@ -6,7 +6,7 @@
     <title> Rosenborg Ballklub </title>
     <link rel="icon" href="bilder/rosenborg.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="innpakning">
@@ -51,19 +51,19 @@
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="bilder/marbella.jpg" style="width:100%">
-            <div class="text"> <h4> ROSENBORG PÅ TRENINGSLEIR I MARBELLA, SPANIA, DENNE UKEN FOR Å GJØRE SEG KLARE FØR SESONGSTART. LES MER  </h4> <a href="nettsider/nyheter/artikkel1.php">her</a> . Foto: ROSENBORG </div>
+            <div class="text"> ROSENBORG PÅ TRENINGSLEIR I MARBELLA, SPANIA, DENNE UKEN FOR Å GJØRE SEG KLARE FØR SESONGSTART. LES MER <a href="nettsider/nyheter/artikkel1.php">her</a>. Foto: ROSENBORG </div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
             <img src="bilder/ranheim.jpg" style="width:100%">
-            <div class="text"> Rosenborg tapte treningskampen mot Ranheim torsdag 28. februar. Les mer <a href="nettsider/nyheter/artikkel2.php">her</a> . Foto: EIRIK EVENSEN </div>
+            <div class="text"> Rosenborg tapte treningskampen mot Ranheim torsdag 28. februar. Les mer <a href="nettsider/nyheter/artikkel2.php">her</a>. Foto: EIRIK EVENSEN </div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
             <img src="bilder/brann.jpg" style="width:100%">
-            <div class="text"> Rosenborg tapte treningskampen mot Brann 10. mars.  Les mer <a href="nettsider/nyheter/artikkel3.php">her</a> . Foto: ARNE RISTESUND </div>
+            <div class="text"> Rosenborg tapte treningskampen mot Brann 10. mars.  Les mer <a href="nettsider/nyheter/artikkel3.php">her</a>. Foto: ARNE RISTESUND </div>
           </div>
 
           <!-- Next and previous buttons -->
@@ -112,10 +112,15 @@
         <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
       </div>
       <div class="bunntekst">
-        <h5> Dette er en UOFFISIELL nettside laget som et skoleprosjekt. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a hred="www.rbk.no" target="_blank">HER</a>. </h5>
-        <p> KONTAKT OSS PÅ: </p>
-        <p> TLF: +47 191 71 917 </p>
-        <p> EPOST: rbk@fake-epost.no </p>
+        <h5> Velkommen til en UOFFISIELL nettside om Rosenborg Ballklub laget som et skoleprosjekt i Informasjonstaknologi 1. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a href="http://www.rbk.no/" target="_blank">her</a>. </h5>
+        <p> Du kan nå oss på: </p>
+        <div class="sosialemedier">
+          <a href="#home" class="fa fa-facebook"></a>
+          <a href="#home" class="fa fa-twitter"></a>
+          <a href="#home" class="fa fa-youtube"></a>
+          <a href="#home" class="fa fa-instagram"></a>
+        </div>
+        <p> eller nå oss på epost: rbk@rbk.no </p>
       </div>
     </div>
   </body>
