@@ -11,12 +11,8 @@
   <body>
     <div class="innpakning">
       <div class="header">
-        <div class="logo">
           <img class="logo1" src="../bilder/rosenborg.png" width="200px" height="200px">
-        </div>
-        <div class="title">
           <h1> ROSENBORG BALLKLUB </h1>
-        </div>
       </div>
       <div class="meny">
         <ul>

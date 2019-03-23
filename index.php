@@ -26,7 +26,7 @@
       </div>
       <div class="innhold">
         <h2> NYHETER </h2>
-        <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
+        <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) starter -->
         <!-- Slideshow container -->
         <div class="slideshow-container">
 
@@ -34,7 +34,7 @@
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="bilder/marbella.jpg" style="width:100%">
-            <div class="text"> <h4>ROSENBORG PÅ TRENINGSLEIR I MARBELLA, SPANIA, DENNE UKEN FOR Å GJØRE SEG KLARE FØR SESONGSTART. LES MER  </h4> <a href="nettsider/nyheter/artikkel1.php">her</a> . Foto: ROSENBORG </div>
+            <div class="text"> <h4> ROSENBORG PÅ TRENINGSLEIR I MARBELLA, SPANIA, DENNE UKEN FOR Å GJØRE SEG KLARE FØR SESONGSTART. LES MER  </h4> <a href="nettsider/nyheter/artikkel1.php">her</a> . Foto: ROSENBORG </div>
           </div>
 
           <div class="mySlides fade">
@@ -92,11 +92,10 @@
             dots[slideIndex-1].className += " active";
           }
         </script>
-<!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
-
+        <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
       </div>
       <div class="footer">
-        <h5> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h5>
+        <h5> Dette er en UOFFISIELL nettside laget som et skoleprosjekt. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a hred="www.rbk.no" target="_blank">HER</a>. </h5>
         <p> KONTAKT OSS PÅ: </p>
         <p> TLF: +47 191 71 917 </p>
         <p> EPOST: rbk@fake-epost.no </p>
