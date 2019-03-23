@@ -1,4 +1,4 @@
-
+@media only screen and (orientation: landscape) {
 
 body {
   padding: 0;
@@ -292,4 +292,5 @@ input[type=submit]:hover {
 /* css for nyheter.php */
 a nyhet1 {
   width: 50%;
+}
 }

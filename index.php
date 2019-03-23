@@ -11,12 +11,8 @@
   <body>
     <div class="innpakning">
       <div class="header">
-        <div class="logo">
-          <img class="logo1" src="bilder/rosenborg.png" width="200px" height="200px">
-        </div>
-        <div class="title">
+          <img src="bilder/rosenborg.png" width="200px" height="auto">
           <h1> ROSENBORG BALLKLUB </h1>
-        </div>
       </div>
       <div class="meny">
         <ul>
@@ -29,11 +25,8 @@
         </ul>
       </div>
       <div class="innhold">
-        <p>
-
-        </p>
-<h2>NYHETER</h2>
-<!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
+        <h2>NYHETER</h2>
+        <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
         <!-- Slideshow container -->
         <div class="slideshow-container">
 
