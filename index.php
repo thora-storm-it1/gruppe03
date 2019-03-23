@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="styles/stilark.css">
     <meta charset="utf-8">
     <title> Rosenborg Ballklub </title>
-    <link rel="icon" href="bilder/rosenborg.png">
+    <link rel="icon" href="bilder/rbk.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -17,7 +17,7 @@
       <!-- Nedfallsmeny fra w3schools (https://www.w3schools.com/howto/howto_css_dropdown.asp) begynner-->
       <div class="meny1">
         <div class="dropdown">
-          <button class="dropbtn"> Meny </button>
+          <button class="dropbtn"> MENY </button>
           <div class="dropdown-content">
             <a class="meny_active" href="#home"> HJEM </a>
             <a href="nettsider/nyheter.php"> NYHETER </a>

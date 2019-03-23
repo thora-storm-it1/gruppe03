@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="../styles/stilark.css">
     <meta charset="utf-8">
     <title> Rosenborg Ballklub </title>
-    <link rel="icon" href="../bilder/rosenborg.png">
+    <link rel="icon" href="../bilder/rbk.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -17,7 +17,7 @@
       <!-- Nedfallsmeny fra w3schools (https://www.w3schools.com/howto/howto_css_dropdown.asp) begynner-->
       <div class="meny1">
         <div class="dropdown">
-          <button class="dropbtn"> Meny </button>
+          <button class="dropbtn"> MENY </button>
           <div class="dropdown-content">
             <a href="../index.php"> HJEM </a>
             <a href="nyheter.php"> NYHETER </a>
@@ -39,32 +39,24 @@
         </ul>
       </div>
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
-
       <div class="innhold">
-
         <?php
           //Tilkoblingsinformasjon
           $tjener = "localhost";
           $brukernavn = "root";
           $passord = "";
           $database = "rosenborg";
-
           //Opretter en kobling
           $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
-
           $kobling->set_charset("utf8");
-
           //Sjekker om koblingen fungerer
           if ($kobling->connect_error) {
             die("Noe gikk galt: " . $kobling->connect_error);
           }
-
           //Definerer SQL-spørringen og henter ut resultatet
           $sql = "SELECT * FROM spiller";
           $resultat = $kobling->query($sql);
-
           echo "<br>";
-
           //Starter tabellen
           echo "<table>";
           //Lager overskrifter
@@ -75,8 +67,6 @@
                   <th> Draktnummer </th>
                   <th> Nasjonalitet </th>
                 </tr>";
-
-
                   //Henter ut resultatene fra en rad og legger dem i et array
                   while($rad = $resultat->fetch_assoc()) {
                     //Lagrer variablene i en rad hver for seg
@@ -86,7 +76,6 @@
                     $spillerposisjon = $rad["spiller-posisjon"];
                     $spillernummer = $rad["spiller-nummer"];
                     $spillernasjonalitet = $rad["spiller-nasjonalitet"];
-
                     //Skriver ut verdiene i tabellen
                     echo "<tr>
                             <td> $spillerfornavn </td>
@@ -95,7 +84,6 @@
                             <td> $spillernummer </td>
                             <td> $spillernasjonalitet </td>
                           </tr>";
-
                   }
           //Avslutter tabellen
           echo "</table>";
@@ -103,7 +91,7 @@
 
       </div>
       <div class="bunntekst">
-        <img src="bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
+        <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
         <h5> Velkommen til en UOFFISIELL nettside om Rosenborg Ballklub laget som et skoleprosjekt i Informasjonstaknologi 1. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a href="http://www.rbk.no/" target="_blank">her</a>. </h5>
         <p> Du kan nå RBK på: </p>
         <div class="sosialemedier">

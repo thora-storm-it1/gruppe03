@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="../styles/stilark.css">
     <meta charset="utf-8">
     <title> Rosenborg Ballklub </title>
-    <link rel="icon" href="../bilder/rosenborg.png">
+    <link rel="icon" href="../bilder/rbk.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -17,7 +17,7 @@
       <!-- Nedfallsmeny fra w3schools (https://www.w3schools.com/howto/howto_css_dropdown.asp) begynner-->
       <div class="meny1">
         <div class="dropdown">
-          <button class="dropbtn"> Meny </button>
+          <button class="dropbtn"> MENY </button>
           <div class="dropdown-content">
             <a href="../index.php"> HJEM </a>
             <a href="nyheter.php"> NYHETER </a>
@@ -43,7 +43,7 @@
         <iframe class="tabell" src="https://vglive.no/turneringer/eliteserien-2019/1877/tabell" height="100%" width="75%" style="border:none;"></iframe>
       </div>
       <div class="bunntekst">
-        <img src="bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
+        <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
         <h5> Velkommen til en UOFFISIELL nettside om Rosenborg Ballklub laget som et skoleprosjekt i Informasjonstaknologi 1. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a href="http://www.rbk.no/" target="_blank">her</a>. </h5>
         <p> Du kan nå RBK på: </p>
         <div class="sosialemedier">
