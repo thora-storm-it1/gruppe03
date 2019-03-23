@@ -121,7 +121,23 @@ if(isset($_POST["leggtil"])) {
 
       </div>
       <div class="footer">
-        <h1> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h1>
+        <div class="rad 1">
+
+
+        <div class="foot1">
+          <h4>OM NETTSIDEN:</h4>
+          <h7></h7>
+        </div>
+        <div class="foot2">
+          <h4>KONTAKTINFORMASJON:</h4> <br>
+          <h7>  epost: fake-post@gmail.com <br>
+                tlf: 69 420 69 <br>
+               </h7>
+        </div>
+      </div>
+        <div class="foot3">
+          <h7>Denne nettsiden er laget av Tord og Jakob, ingen rettigheter reservert</h7>
+        </div>
       </div>
     </div>
   </body>
