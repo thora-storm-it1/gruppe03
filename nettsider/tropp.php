@@ -127,10 +127,10 @@
               $årstall = date("Y");
               $opphold = $årstall - $spillerankomst;
 
-              echo "<p>";
+
               if ($spillerposisjon == "Målvakt") {
                 echo "<div class='spiller'>
-                      <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                        <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
                         <ul>
                           <li> Navn: $spillerfornavn $spilleretternavn </li>
                           <li> Posisjon: $spillerposisjon </li>
@@ -141,10 +141,10 @@
                         </ul>
                       </div>";
               }
-              echo "</p>";
-              if ($spillerposisjon == "Forsvarsspiller") {
+
+              elseif ($spillerposisjon == "Forsvarsspiller") {
                 echo "<div class='spiller'>
-                      <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                        <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
                         <ul>
                           <li> Navn: $spillerfornavn $spilleretternavn </li>
                           <li> Posisjon: $spillerposisjon </li>
