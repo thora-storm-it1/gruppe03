@@ -1,7 +1,7 @@
 body  {
   padding: 0px;
   margin: 0px;
-  background-color: black;
+  background-color: red;
   color: white;
   font-family: sans-serif;
 }
@@ -17,8 +17,12 @@ body  {
       text-align: center;
     }
     .meny1 {
+      display: block;
+      position: sticky;
+      top: 0;
       background-color: #8E6B33;
-      height: 50px;
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
       .dropbtn {
         background-color: #8E6B33;
@@ -273,6 +277,7 @@ body  {
         background-color: #8E6B33;
         padding-top: 15px;
         padding-bottom: 15px;
+
       }
         ul {
           list-style-type: none;
