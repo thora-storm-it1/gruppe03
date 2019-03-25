@@ -40,7 +40,10 @@
 <div class="tittel1">
 <h3>TIL TRENINGSLEIR I MARBELLA</h3>
 </div>
+<br><br>
 </div></a>
+<br><br><br><br><br>
+
 
 <a href="nyheter/artikkel2.php">
 <div class="nyhet2">
@@ -50,7 +53,9 @@
   <div class="tittel2">
     <h3>TAP MOT RANHEIM</h3>
 </div>
+<br><br>
 </div> </a>
+<br><br><br><br><br>
 
 <a href="nyheter/artikkel3.php">
 <div class="nyhet3">
@@ -59,11 +64,12 @@
   </div>
   <div class="tittel3">
     <h3>NYTT TAP</h3>
+
     </div>
-</div>
-</a>
+    <br><br>
+</div></a>
 
-
+<br><br><br><br><br>
       </div>
       <div class="footer">
         <h1> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h1>

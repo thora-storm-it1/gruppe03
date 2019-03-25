@@ -62,6 +62,7 @@ if(isset($_POST["leggtil"])) {
    $name = $_POST["name"];
    $comment = $_POST["comment"];
 
+
    $sql = "INSERT INTO comments (name, comment) VALUES ('$name', '$comment')";
 
 
@@ -107,7 +108,78 @@ if(isset($_POST["leggtil"])) {
                 window.history.replaceState( null, null, window.location.href );
                 }
               </script>
+<?php
+// Vanlig setup for å skrive inn hostnavnet, brukernavn, databasenavn og passord
 
+  //Lager meg et query, velg alle bilde jeg har i databasen
+  $sql = "SELECT * FROM comments";
+  //Resultatet fra querykallet legger jeg i en "variabel" med navn $result
+  $result = $kobling->query($sql);
+
+while($row = $result-> fetch_assoc()){
+      //Hver rad i databasen min inneholder en Bildeurl, antall likes og en unik ID, disse henter jeg ut.
+
+      $likes = $row["likes"];
+      $id = $row["id"];
+
+      //Her er det som er teknisk vanskelig.
+      //Først lager jeg meg en "wrapper" div som har kontroll på alt innholdet mitt
+      //Så slenger jeg rundt en form, den må selvfølgelig ha metoden ="POST", slik at jeg kan lytte etter hvis noen trykker på like knappen(e) mine
+      //Bildet vises på skjerm, med elementet <img src="$bildeURL" />
+      //Viser antall likes tilknyttet til hvert bilde med <div>$likes</div>, siden antall likes fra databsen blir lagret i variabelen $likes
+      //<input type='hidden' name='id' value='$id'> er tatt rett fra boken, Kapittel 18 s205
+      //Legger til styling på knappen min med et ikon fra FontAwesome
+      echo "
+      <div>
+      <form method='post'>
+
+          <div key='$id'>$likes</div>
+          <input type='hidden' name='id' value='$id'>
+        <button class='btn btn-default btn-sm' name='like' type='submit'>
+          <span class='glyphicon glyphicon-thumbs-up'></span> Like
+        </button>
+        </form>
+          <br>
+        </div>
+      ";
+    };
+
+    mysqli_free_result($result);
+
+
+    //Denne funksjonen/metoden lytter etter museklikk på liker knappene mine.
+    if(isset($_POST['like'])){
+      //Henter ut den ID som tilhører hver likerknapp
+      $id= $_POST['id'];
+      //Lager meg et query som bruker den ID'en jeg har fra en gitt knapp
+      $sql = "UPDATE bilder SET likes = likes + 1 WHERE id=$id";
+      //Utfører query mot databasen
+      if($conn->query($sql)){
+        //DENNE ER VIKTIG! Bug fiks for å hindre at du automatisk legger til ting i databasen ved "refresh" av nettsiden.
+        // header('Location: .') løser dette problemet!
+        header('Location: .');
+      }else{
+        echo "Upvote feilet";
+        header('Location: .');
+      }
+    }
+ ?>
+<?php
+if(isset($_POST['like'])){
+    //Henter ut den ID som tilhører hver likerknapp
+    $id= $_POST['id'];
+    //Lager meg et query som bruker den ID'en jeg har fra en gitt knapp
+    $sql = "UPDATE comments SET likes = likes + 1 WHERE id=$id";
+    //Utfører query mot databasen
+    if($conn->query($sql)){
+      //DENNE ER VIKTIG! Bug fiks for å hindre at du automatisk legger til ting i databasen ved "refresh" av nettsiden.
+      // header('Location: .') løser dette problemet!
+      header('Location: .');
+    }else{
+      echo "Upvote feilet";
+      header('Location: .');
+    }
+  } ?>
 <form  method='post'>
 
   Navn: <br>
@@ -136,7 +208,7 @@ if(isset($_POST["leggtil"])) {
         </div>
       </div>
         <div class="foot3">
-          <h7>Denne nettsiden er laget av Tord og Jakob, ingen rettigheter reservert</h7>
+          <h8>Denne nettsiden er laget av Tord og Jakob, ingen rettigheter reservert</h8>
         </div>
       </div>
     </div>
