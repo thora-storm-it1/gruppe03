@@ -41,6 +41,7 @@
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
         <div class="breddeinnhold">
+          <br>
           <h2> NYHETER </h2>
           <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) begynner -->
           <!-- Slideshow container -->
@@ -50,7 +51,7 @@
             <div class="mySlides fade">
               <div class="numbertext">1 / 3</div>
               <img src="bilder/marbella.jpg" style="width:100%">
-              <div class="text"> ROSENBORG PÅ TRENINGSLEIR I MARBELLA, SPANIA, DENNE UKEN FOR Å GJØRE SEG KLARE FØR SESONGSTART. LES MER <a href="nettsider/nyheter/artikkel1.php">her</a>. Foto: ROSENBORG </div>
+              <div class="text"> Rosenborg på treningsleir i Marbella, Spania, denne uken for å gjøre seg klare før sesongstart. Les mer <a href="nettsider/nyheter/artikkel1.php">her</a>. Foto: ROSENBORG </div>
             </div>
 
             <div class="mySlides fade">
@@ -77,6 +78,8 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
+
+          <br>
 
           <script>
             var slideIndex = 1;
