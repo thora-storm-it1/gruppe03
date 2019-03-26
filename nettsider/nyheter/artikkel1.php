@@ -88,12 +88,12 @@ if(isset($_POST["leggtil"])) {
           $name = $rad["name"];
           $comment = $rad["comment"];
 
-               echo "<div class='navn'>";
-               echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
-               echo "</div>";
-               echo "<div class='kommentar'>";
-               echo "$comment <br><br>";
-               echo "</div>";
+               echo "<div class='navn'>;
+               $name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;;
+               </div>;
+               <div class='kommentar'>;
+               $comment <br><br>;
+              </div>";
 
 
         }
