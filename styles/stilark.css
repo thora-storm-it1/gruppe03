@@ -89,6 +89,16 @@ body  {
       .breddeinnhold {
         max-width: 1000px;
       }
+        .breddeinnhold a {
+            text-decoration: none;
+            color: black;
+        }
+        .breddeinnhold a:hover {
+          color: #8E6B33;
+        }
+        .nyhet1, .nyhet2, .nyhet3{
+          padding: 10px;
+        }
         .tropp {
           display: flex;
           flex-flow: row wrap;
@@ -324,6 +334,16 @@ body  {
         .breddeinnhold {
           max-width: 1000px;
         }
+          .breddeinnhold a {
+              text-decoration: none;
+              color: black;
+          }
+          .breddeinnhold a:hover {
+            color: #8E6B33;
+          }
+            .nyhet1, .nyhet2, .nyhet3{
+              padding: 10px;
+            }
         .innhold h2 {
           font-size: 40px;
         }

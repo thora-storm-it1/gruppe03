@@ -52,6 +52,7 @@
                 </div>
               </div>
             </a>
+            <br>
             <a href="nyheter/artikkel2.php">
               <div class="nyhet2">
                 <div class="bilde2">
@@ -62,6 +63,7 @@
                 </div>
               </div>
             </a>
+            <br>
             <a href="nyheter/artikkel3.php">
               <div class="nyhet3">
                 <div class="bilde3">

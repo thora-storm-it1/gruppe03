@@ -19,11 +19,11 @@
         <div class="dropdown">
           <button class="dropbtn"> MENY </button>
           <div class="dropdown-content">
-            <a href="../index.php"> HJEM </a>
-            <a class="meny_active" href="../nettsider/nyheter.php"> NYHETER </a>
-            <a href="../nettsider/tropp.php"> TROPP </a>
-            <a href="../nettsider/tabell.php"> TABELL/KAMPER </a>
-            <a href="../nettsider/om_rbk.php"> OM RBK </a>
+            <a href="../../index.php"> HJEM </a>
+            <a class="meny_active" href="../../nettsider/nyheter.php"> NYHETER </a>
+            <a href="../../nettsider/tropp.php"> TROPP </a>
+            <a href="../../nettsider/tabell.php"> TABELL/KAMPER </a>
+            <a href="../../nettsider/om_rbk.php"> OM RBK </a>
           </div>
         </div>
       </div>
@@ -32,10 +32,10 @@
       <div class="meny2">
         <ul>
           <li><a href="../../index.php"> HJEM </a></li>
-          <li><a class="meny_active" href="../nettsider/nyheter.php"> NYHETER </a></li>
-          <li><a href="../nettsider/tropp.php"> TROPP </a></li>
-          <li><a href="../nettsider/tabell.php"> TABELL/KAMPER </a></li>
-          <li><a href="../nettsider/om_rbk.php"> OM RBK </a></li>
+          <li><a class="meny_active" href="../../nettsider/nyheter.php"> NYHETER </a></li>
+          <li><a href="../../nettsider/tropp.php"> TROPP </a></li>
+          <li><a href="../../nettsider/tabell.php"> TABELL/KAMPER </a></li>
+          <li><a href="../../nettsider/om_rbk.php"> OM RBK </a></li>
         </ul>
       </div>
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
