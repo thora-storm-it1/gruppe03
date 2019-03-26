@@ -40,8 +40,8 @@
       </div>
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
-<br><br>
-<iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="70%" style="border:none;"></iframe>
+        <br><br>
+        <iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="70%" style="border:none;"></iframe>
         <?php
 
 
@@ -87,48 +87,41 @@ if(isset($_POST["leggtil"])) {
         <br>
 
         <?php
-        $sql = "SELECT * FROM comments ";
-        $resultat = $kobling->query($sql);
+          $sql = "SELECT * FROM comments ";
+          $resultat = $kobling->query($sql);
 
+          while($rad = $resultat->fetch_assoc()) {
+            $name = $rad["name"];
+            $comment = $rad["comment"];
 
-
-        while($rad = $resultat->fetch_assoc()) {
-          $name = $rad["name"];
-          $comment = $rad["comment"];
-
-          echo "<div class='unit'>
-          <div class='navn'>
-          $name :
-          </div>
-          <div class='kommentar'>
-          $comment <br>
-         </div>
-         </div>";
-
-
-        }
-
-        echo "</table>"; // Avslutter tabellen
-
+            echo "<div class='unit'>
+            <div class='navn'>
+            $name :
+            </div>
+            <div class='kommentar'>
+            $comment <br>
+           </div>
+           </div>";
+          }
+          echo "</table>"; // Avslutter tabellen
         ?>
+
         <br><br>
-        <script>
-                //thank you god. I promise never to use PHP again
-                if ( window.history.replaceState ) {
-                window.history.replaceState( null, null, window.location.href );
-                }
-              </script>
 
-<form  method='post'>
+          <script>
+            //thank you god. I promise never to use PHP again
+            if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, window.location.href );
+            }
+          </script>
 
-  Navn: <br>
-  <input type="text" name="name" placeholder="Ditt navn.."><br><br>
-  Kommentar: <br>
-  <textarea name='comment' placeholder="Skriv kommentar.."></textarea><br>
-  <input type='submit'  name='leggtil' value="Legg til"><br>
-</form>
-
-
+          <form  method='post'>
+            Navn: <br>
+            <input type="text" name="name" placeholder="Ditt navn.."><br><br>
+            Kommentar: <br>
+            <textarea name='comment' placeholder="Skriv kommentar.."></textarea><br>
+            <input type='submit'  name='leggtil' value="Legg til"><br>
+          </form>
 
       </div>
       <div class="bunntekst">

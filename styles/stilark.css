@@ -101,10 +101,14 @@ border-top: 2px solid #8d6b36;
       display: flex;
       flex-flow: column wrap;
       align-items: center;
+      justify-content: center;
       text-align: center;
       background-color: white;
       color: black;
     }
+      .rbkweb {
+        justify-content: center;
+      }
       .breddeinnhold {
         max-width: 1000px;
       }
