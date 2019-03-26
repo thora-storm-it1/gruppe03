@@ -96,12 +96,12 @@ if(isset($_POST["leggtil"])) {
           $name = $rad["name"];
           $comment = $rad["comment"];
 
-               echo "<div class='navn'>";
-               echo "$name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;";
-               echo "</div>";
-               echo "<div class='kommentar'>";
-               echo "$comment <br><br>";
-               echo "</div>";
+               echo "<div class='navn'>;
+               $name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;;
+               </div>;
+               <div class='kommentar'>;
+               $comment <br><br>;
+              </div>";
 
 
         }
@@ -130,7 +130,7 @@ if(isset($_POST["leggtil"])) {
 
       </div>
       <div class="bunntekst">
-        <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
+        <img src="../../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
         <h5> Velkommen til en UOFFISIELL nettside om Rosenborg Ballklub laget som et skoleprosjekt i Informasjonstaknologi 1. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a href="http://www.rbk.no/" target="_blank">her</a>. </h5>
         <p> Du kan nå RBK på: </p>
         <div class="sosialemedier">
