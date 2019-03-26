@@ -36,7 +36,7 @@ body  {
 }
 
   .unit {
-border-top: 2px solid #8d6b36;
+    border-top: 2px solid #8d6b36;
     max-width: 1000px;
     width: 100%;
     font-family:  Gadget, sans-serif;
@@ -122,14 +122,18 @@ border-top: 2px solid #8d6b36;
       }
         .breddeinnhold a {
             text-decoration: none;
-            color: black;
+            color: white;
         }
         .breddeinnhold a:hover {
-          color: #8E6B33;
+          color: white;
         }
         .nyhet1, .nyhet2, .nyhet3{
           padding: 10px;
         }
+          .tittel1, .tittel2, .tittel3 h3 {
+            text-decoration: none;
+            color: #8E6B33;
+          }
         .tropp {
           display: flex;
           flex-flow: row wrap;
@@ -268,6 +272,7 @@ border-top: 2px solid #8d6b36;
         margin: 5px 2px;
         border-radius: 50%;
         width: 55px;
+        transition: opacity 0.3s;
       }
       .fa:hover {
         opacity: 0.7;
@@ -364,10 +369,10 @@ border-top: 2px solid #8d6b36;
         }
           .breddeinnhold a {
               text-decoration: none;
-              color: black;
+              color: white;
           }
           .breddeinnhold a:hover {
-            color: #8E6B33;
+            color: white;
           }
             .nyhet1, .nyhet2, .nyhet3{
               padding: 10px;
