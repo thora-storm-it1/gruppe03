@@ -87,12 +87,12 @@ if(isset($_POST["leggtil"])) {
         while($rad = $resultat->fetch_assoc()) {
           $name = $rad["name"];
           $comment = $rad["comment"];
-          
-          echo "<div class='navn'>;
-          $name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;;
-          </div>;
-          <div class='kommentar'>;
-          $comment <br><br>;
+
+          echo "<div class='navn'>
+          $name : &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+          </div>
+          <div class='kommentar'>
+          $comment <br><br>
          </div>";
 
 
