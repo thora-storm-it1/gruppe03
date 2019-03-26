@@ -20,6 +20,23 @@ body  {
     display: flex;
     flex-flow: column wrap;
   }
+
+  .kommentar {
+    text-align: : flex-start;
+    padding: 2vh;
+  }
+.navn {
+  font-weight: bold;
+}
+
+  .unit {
+border-top: 2px solid #8d6b36;
+    max-width: 1000px;
+    width: 100%;
+    font-family:  Gadget, sans-serif;
+    padding-top: 20px;
+
+  }
     .topptekst {
       padding: 15px;
       display: flex;
@@ -513,6 +530,13 @@ body  {
 .tittel3 {
   text-align: center;
 }
+
+form {
+max-width: 1000px;
+width: 100%;
+
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
@@ -551,10 +575,4 @@ input[type=submit]:hover {
 a nyhet1 {
   width: 50%;
 }
-}
-
-
-.kommentar {
-  border-top: 2px solid #8d6b36;
-  padding: 2vh;
 }
