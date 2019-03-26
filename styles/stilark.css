@@ -4,106 +4,18 @@ body  {
   background-color: black;
   color: white;
   font-family: "Hansief", "Arial Black", Gadget, sans-serif;
-flex-direction: column;
-
+  flex-direction: column;
 }
-
-.foot1 {
-  order: 1;
-     flex-basis: 60%;
-
-
-  margin-left: 10%;
-
-}
-
-.foot2 {
-
-  order: 2;
-   flex-basis: 40%;
-   display: flex;
-   flex-direction: column;
-
-}
-.rad1 {
-flex-direction: row;
-
-}
-.foot3 {
-  order: 3;
-    flex-basis: 100%;
-
-    align-items: center;
-    text-align: center;
-    background-color: black;
-}
-h5 {
-  align-self: center;
-  justify-content: center;
-
-}
-
-h7 {
-  font-family: arial;
-}
-
-h8 {
-  font-family: arial;
-
-}
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  font-family: sans-serif;
-}
+    h5 {
+      align-self: center;
+      justify-content: center;
+    }
+    h7 {
+      font-family: arial;
+    }
+    h8 {
+      font-family: arial;
+    }
   .innpakning {
     display: flex;
     flex-flow: column wrap;
@@ -121,7 +33,7 @@ h8 {
       top: 0;
       background-color: #8E6B33;
       z-index: 1;
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
       .dropdown {
         position: relative;
@@ -349,7 +261,7 @@ h8 {
     margin: 0px;
     background-color: black;
     color: white;
-    font-family: sans-serif;
+    font-family: "Hansief", "Arial Black", Gadget, sans-serif;
   }
     .innpakning {
       display: flex;
