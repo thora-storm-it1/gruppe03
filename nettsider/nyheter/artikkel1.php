@@ -33,7 +33,7 @@
       </div>
       <div class="innhold">
 <br><br>
-<iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="100%" style="border:none;"></iframe>
+<iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="70%" style="border:none;"></iframe>
         <?php
 
 
@@ -108,7 +108,7 @@ if(isset($_POST["leggtil"])) {
                 window.history.replaceState( null, null, window.location.href );
                 }
               </script>
- 
+
 <form  method='post'>
 
   Navn: <br>
