@@ -123,7 +123,7 @@
     </form>
   </div>
       <div class="bunntekst">
-        <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
+        <img src="../../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
         <h5> VelkOmmen til en UOFFISIELL nettside Om ROsenbOrg Ballklub laget sOm et skOleprOsjekt i InfOrmasjOnsteknOlOgi 1. FOr å kOmme til ROsenbOrg Ballklubs faktiske nettside, klikk <a href="http://www.rbk.no/" target="_blank">her</a>. </h5>
         <p> Du kan nå RBK på: </p>
         <div class="sosialemedier">
