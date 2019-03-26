@@ -41,7 +41,7 @@
       </div>
       <div class="innhold">
         <br>
-          
+
           <iframe src="http://www.rbkweb.no/vis/13970" height="180%" width="100%" style="border:none;"></iframe>
 
         <?php
@@ -124,7 +124,7 @@ if(isset($_POST["leggtil"])) {
 
   Navn: <br>
   <input class="navn" type="text" name="name" placeholder="Ditt navn.."><br><br>
-  Kommentar: <br>
+  KOmmentar: <br>
   <textarea name='comment' placeholder="Skriv kommentar.."></textarea><br>
   <input class="kommentar" type='submit'  name='leggtil' value="Legg til"><br>
 </form>

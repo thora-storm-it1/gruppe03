@@ -117,7 +117,7 @@
     <form id="kommentarfelt" method='post'>
       Navn: <br>
       <input type="text" name="name" placeholder="Ditt navn.."><br><br>
-      Kommentar: <br>
+      KOmmentar: <br>
       <textarea name='comment' placeholder="Skriv kommentar.."></textarea><br>
       <input type='submit'  name='leggtil' value="Legg til"><br>
     </form>
