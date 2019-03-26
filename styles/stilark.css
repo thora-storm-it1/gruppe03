@@ -243,10 +243,8 @@ border-top: 2px solid #8d6b36;
       flex-flow: column wrap;
       align-items: center;
       text-align: center;
+      font-size: 20px;
     }
-      .bunntekst p {
-        font-weight: bold;
-      }
       .bunntekst h5 a {
           color: #8E6B33;
       }
@@ -489,9 +487,6 @@ border-top: 2px solid #8d6b36;
         align-items: center;
         text-align: center;
       }
-        .bunntekst p {
-          font-weight: bold;
-        }
         .fa {
           padding: 20px;
           font-size: 30px;
