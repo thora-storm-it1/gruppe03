@@ -11,7 +11,7 @@
   <body>
     <div class="innpakning">
       <div class="topptekst">
-          <img src="../bilder/rosenborg.png" width="300px" height="auto">
+          <img src="../../bilder/rosenborg.png" width="300px" height="auto">
           <h1> ROSENBORG BALLKLUB </h1>
       </div>
       <!-- Nedfallsmeny fra w3schools (https://www.w3schools.com/howto/howto_css_dropdown.asp) begynner-->
