@@ -56,14 +56,15 @@ border-top: 2px solid #8d6b36;
       .dropdown {
         position: relative;
         display: inline-block;
+        font-family: "Hansief", "Arial Black", Gadget, sans-serif;
       }
       .dropbtn {
         background-color: #8E6B33;
         color: white;
-        font-weight: bold;
         font-size: 15px;
         padding: 16px;
         border: none;
+        font-family: "Hansief", "Arial Black", Gadget, sans-serif;
       }
       .dropdown-content {
         display: none;
@@ -329,7 +330,6 @@ border-top: 2px solid #8d6b36;
           ul a {
             padding: 15px 30px;
             color: white;
-            font-weight: bold;
             font-size: 15px;
             text-decoration: none;
             background-color: #8E6B33;
