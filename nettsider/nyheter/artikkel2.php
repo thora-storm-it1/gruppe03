@@ -121,8 +121,17 @@ if(isset($_POST["leggtil"])) {
 
 
       </div>
-      <div class="footer">
-        <h1> Dette er en UOFFISIEL Fanside laget som et skoleprosjekt. </h1>
+      <div class="bunntekst">
+        <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
+        <h5> Velkommen til en UOFFISIELL nettside om Rosenborg Ballklub laget som et skoleprosjekt i Informasjonstaknologi 1. For å komme til Rosenborg Ballklubs faktiske nettside, klikk <a href="http://www.rbk.no/" target="_blank">her</a>. </h5>
+        <p> Du kan nå RBK på: </p>
+        <div class="sosialemedier">
+          <a href="https://nb-no.facebook.com/rosenborg/" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/RBKfotball?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/channel/UCMzBr0zvB2uhUTRvnSFzwIw" target="_blank" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/rosenborgballklub/?hl=nb" target="_blank" class="fa fa-instagram"></a>
+        </div>
+        <p> E-post: info@rbk.no eller Telefon: 73822100 </p>
       </div>
     </div>
   </body>
