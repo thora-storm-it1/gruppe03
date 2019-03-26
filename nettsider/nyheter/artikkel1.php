@@ -41,7 +41,9 @@
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
         <br><br>
-        <iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="70%" style="border:none;"></iframe>
+
+          <iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="70%" style="border:none;"></iframe>
+        
         <?php
 
 

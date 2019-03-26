@@ -112,6 +112,9 @@ border-top: 2px solid #8d6b36;
       background-color: white;
       color: black;
     }
+      iframe {
+        width: 60%;
+      }
       .rbkweb {
         justify-content: center;
       }
