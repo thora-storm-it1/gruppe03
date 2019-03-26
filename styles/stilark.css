@@ -16,6 +16,12 @@ body  {
     h8 {
       font-family: arial;
     }
+    h9 {
+      font-family: arial, sans-serif;
+    }
+    h10 {
+      font-weight: bold;
+    }
   .innpakning {
     display: flex;
     flex-flow: column wrap;

@@ -40,115 +40,61 @@
       </div>
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
-        Daglig leder og arrangementssjef:
-        Tove Moe Dyrhaug  - 481 80 740  - tove.dyrhaug@rbk.no
+      <h9>  <h10> Daglig leder og arrangementssjef: </h10><br>
+        Tove Moe Dyrhaug  - 481 80 740  - tove.dyrhaug@rbk.no <br>
 
-        Sportslig avdeling A-lag
-        Hovedtrener:
-        Eirik Horneland
-        Assistenttrener:
-        Karl Oskar Emberland
-        Trond Henriksen
-        Keepertrener/logistikkansvarlig:
-        Jørn Jamtfall - 915 91 001- jorn.jamtfall@rbk.no
-        Sportslig leder:
-        Stig Inge Bjørnebye
-        Med. koordinator fysioterapeut/osteopat:
-        Haakon Schwabe,  - 959 59 539 - haakon.schwabe@rbk.no
-        Fysioterapeuter:
-        Christian Thorbjørnsen - christian.thorbjornsen@rbk.no
-        Eirik Nordtvedt - 926 84 106 - eirik.nordtvedt@rbk.no
-        Sjefspeider:
-        Hallvar Thoresen
-        Trener:
-        Vebjørn Rodal
-        Materialforvalter:
-        Gunnar Stene - 911 74 133 - gunnar.stene@rbk.no
-        Kostholdsekspert:
-        Henning Svendsen
-        Lege:
-        Reidar Due
+      <h10>  Sportslig avdeling A-lag  </h10><br>
+        <h10>Hovedtrener: </h10> <br>
+        Eirik Horneland <br>
+        <h10>Assistenttrener: </h10> <br>
+        Karl Oskar Emberland <br>
+        Trond Henriksen <br>
+        <h10>Keepertrener/logistikkansvarlig:  </h10><br>
+        Jørn Jamtfall - 915 91 001- jorn.jamtfall@rbk.no <br>
+        <h10>Sportslig leder: </h10> <br>
+        Stig Inge Bjørnebye <br>
+        <h10>Med. koordinator fysioterapeut/osteopat:  </h10><br>
+        Haakon Schwabe,  - 959 59 539 - haakon.schwabe@rbk.no <br>
+        <h10>Fysioterapeuter: </h10> <br>
+        Christian Thorbjørnsen - christian.thorbjornsen@rbk.no <br>
+        Eirik Nordtvedt - 926 84 106 - eirik.nordtvedt@rbk.no <br>
+        <h10>Sjefspeider: </h10> <br>
+        Hallvar Thoresen <br>
+        <h10>Trener:  </h10><br>
+        Vebjørn Rodal <br>
+        <h10>Materialforvalter:  </h10><br>
+        Gunnar Stene - 911 74 133 - gunnar.stene@rbk.no <br>
+        <h10>Kostholdsekspert: </h10> <br>
+        Henning Svendsen <br>
+        <h10>Lege: </h10> <br>
+        Reidar Due <br>
 
-        SalMar Akademiet
-        Akademileder:
-        Rini Coolen - rini.coolen@rbk.no
-        Utviklingsleder:
-        Tore Grønning - 907 61 540 - tore.gronning@rbk.no
-        Hovedtrener RBK2:
-        Trond Henriksen - 915 91 031 - trond.henriksen@rbk.no
-        Ass. trener RBK2:
-        Gert Heerkes - gert.heerkes@rbk.no
-        Hovedtrener G16:
-        Gerhard Wermink - gerhard.wermink@rbk.no
-        Ass. trener G16:
-        Vegard Skorstad - 988 68 188 - vegard.skorstad@rbk.no
-        Fysisk trener:
-        Geir Håvard Hjelde - 915 15 257 - geir.hjelde@rbk.no
-        Keepertrener:
-        Alexander Lund Hansen - 417 99 925 - alexander.lund.hansen@rbk.no
-        Osteopat:
-        Ole Næss
-        Utviklingskonsulent:
-        Tor Asle Kleveland - 920 33 007 - tor.asle.kleveland@rbk.no
-        Materialforvalter:
-        Leif Husvik - 930 21 117 - leif.husvik@rbk.no
-        Materialforvalter:
-        Per Nygaard - 992 14 182 - per.nygaard@rbk.no
 
-        Strategi og organisasjon <br>
-        Leder strategi, organisasjon, kommunikasjon og samfunnsansvar: <br>
-        Trond Alstad - 930 85 740 - trond.alstad@rbk.no <br>
-        Kommunikasjonsmedarbeider og samfunnskontakt: <br>
-        Jørgen Stenseth - 926 68 124 - jorgen.stenseth@rbk.no <br>
-        Kommunikasjonsmedarbeider: <br>
-        Eirik Grønning - 915 38 531 - eirik.gronning@rbk.no <br>
-        Frode Søraas - 900 99 517 - frode.soraas@rbk.no <br>
-        Spillerkoordinator: <br>
-        Harald Pedersen - 959 05 135 - harald.pedersen@rbk.no <br>
-        Administrasjonskoordinator: <br>
-        Guri Brønseth - 930 07 547 - guri.bronseth@rbk.no <br>
-        Kjøkkensjef: <br>
-        Geir Bogan - 986 24 749 - geir.bogan@rbk.no <br>
-        Kjøkkenmedarbeider: <br>
-        Simeon Kanu - 993 88 255 <br>
-        Kjøkkenmedarbeider: <br>
-        Tore Lundsør <br>
 
-        Operasjon og leveranse <br>
-        Leder og leveranseansvarlig: <br>
-        Bjørn Skjæran - 924 13 132 - bjorn.skjaeran@rbk.no <br>
-        Salgsleder billett: <br>
-        Emil Hauge - 982 57 177 - emil.hauge@rbk.no <br>
-        Billettkoordinator (permisjon): <br>
-        Hanne Ramstad - 957 31 308 - hanne.ramstad@rbk.no <br>
-        Arrangementskoordinator: <br>
-        Anne Berit Sørensen - 488 69 009 - anne.berit.sorensen@rbk.no <br>
-        Arrangement- og billettkoordinator: <br>
-        Borgar Kulseth Kirkvold - 41409361 - borgar.kulseth.kirkvold@rbk.no <br>
-        Prosjektmedarbeider RBK Skolen: <br>
-        Simon Evjen - 928 63 513 - simon.evjen@rbk.no <br>
-        Mats Karlstrøm - 482 07 918 - mats.karlstrom@rbk.no <br>
 
-        Økonomi, eiendom og stadion <br>
-        Leder: <br>
+
+
+
+        <h10>Økonomi, eiendom og stadion</h10>  <br>
+      <h10>  Leder:</h10>  <br>
         Roar Munkvold - 916 61 563 - roar.munkvold@rbk.no <br>
-        Økonomimedarbeidere: <br>
+      <h10>  Økonomimedarbeidere:</h10>  <br>
         Bergljot Angen - bergljot.angen@rbk.no <br>
         Maren Rognhaug Nybrodal - maren.nybrodal@rbk.no <br>
-        Driftsleder: <br>
+      <h10>  Driftsleder:</h10>  <br>
         Per Haugnes - 913 38 380 - per.haugnes@rbk.no <br>
-        Banemester: <br>
+      <h10>  Banemester:</h10>  <br>
         Anders Øien - 996 21 200 - anders.oien@rbk.no <br>
-        Driftsmedarbeider: <br>
+      <h10>  Driftsmedarbeider:</h10>  <br>
         Martin Tinnen <br>
 
-        Salg <br>
-        Salgssjef: <br>
+      <h10>  Salg </h10> <br>
+      <h10>  Salgssjef:</h10>  <br>
         Harald Lundemo - 902 20 899 - harald.lundemo@rbk.no <br>
-        Salg: <br>
+      <h10>  Salg: </h10> <br>
         Bjørn Kottum - 951 64 364 - bjorn.kottum@rbk.no <br>
         Vegard Selven - 991 65 777 - vegard.selven@rbk.no <br>
-        Camilla Herstad - 924 46 418 - camilla.herstad@rbk.no <br>
+        Camilla Herstad - 924 46 418 - camilla.herstad@rbk.no <br> </h9>
       </div>
       <div class="bunntekst">
         <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
