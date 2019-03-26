@@ -41,9 +41,8 @@
       </div>
       <div class="innhold">
         <br>
-        <div class="rbkweb">
+
           <iframe src="http://www.rbkweb.no/vis/13970" height="auto" width="100%" style="border:none;"></iframe>
-        </div>
         <?php
         // Tilkoblingsinformasjon
         $tjener = "localhost";
