@@ -206,12 +206,16 @@ body  {
           font-family: sans-serif;
           font-weight: bold;
           color: black;
-          text-shadow: 2px 2px 5px white;
+          text-shadow: 1px 1px 0px white;
         }
         .text a {
           color: white;
-          text-shadow: 2px 2px 5px black;
+          text-shadow: 1px 1px 0px black;
         }
+          .text a:hover {
+            color: #8E6B33;
+            text-shadow: 1px 1px 0px white;
+          }
         /* Number text (1/3 etc) */
         .numbertext {
           color: #f2f2f2;
@@ -263,6 +267,9 @@ body  {
     }
       .bunntekst h5 a {
           color: #8E6B33;
+      }
+      .bunntekst h5 a:hover {
+          color: white;
       }
       .fa {
         padding: 20px;
@@ -453,12 +460,16 @@ body  {
             font-family: sans-serif;
             font-weight: bold;
             color: black;
-            text-shadow: 2px 2px 4px white;
+            text-shadow: 1px 1px 0px white;
           }
           .text a {
             color: white;
-            text-shadow: 2px 2px 50px black;
+            text-shadow: 1px 1px 0px black;
           }
+            .text a:hover {
+              color: #8E6B33;
+              text-shadow: 1px 1px 0px white;
+            }
           /* Number text (1/3 etc) */
           .numbertext {
             color: #f2f2f2;
@@ -504,6 +515,9 @@ body  {
         align-items: center;
         text-align: center;
       }
+        .bunntekst h5 a:hover {
+            color: white;
+        }
         .fa {
           padding: 20px;
           font-size: 30px;
