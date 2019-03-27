@@ -166,9 +166,9 @@
         <p> Du kan nå RBK på: </p>
         <div class="sosialemedier">
           <a href="https://nb-no.facebook.com/rosenborg/" target="_blank" class="fa fa-facebook"></a>
-          <a href="https://twitter.com/RBKfotball?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="fa fa-twitter"></a>
-          <a href="https://www.youtube.com/channel/UCMzBr0zvB2uhUTRvnSFzwIw" target="_blank" class="fa fa-youtube"></a>
-          <a href="https://www.instagram.com/rosenborgballklub/?hl=nb" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/realdonaldtrump" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/user/h3h3Productions" target="_blank" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/sophieelise/?hl=nb" target="_blank" class="fa fa-instagram"></a>
         </div>
         <p> E-pOst: infO@rbk.nO eller TelefOn: 73822100 </p>
       </div>
