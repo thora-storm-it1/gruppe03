@@ -134,6 +134,15 @@ body  {
             text-decoration: none;
             color: #8E6B33;
           }
+          .nyhet1:hover h3 {
+            color: black;
+          }
+          .nyhet2:hover h3 {
+            color: black;
+          }
+          .nyhet3:hover h3 {
+            color: black;
+          }
         .tropp {
           display: flex;
           flex-flow: row wrap;
@@ -383,6 +392,15 @@ body  {
           }
             .nyhet1, .nyhet2, .nyhet3{
               padding: 10px;
+            }
+            .nyhet1:hover h3 {
+              color: black;
+            }
+            .nyhet2:hover h3 {
+              color: black;
+            }
+            .nyhet3:hover h3 {
+              color: black;
             }
         .innhold h2 {
           font-size: 40px;

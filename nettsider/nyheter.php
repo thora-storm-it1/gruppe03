@@ -42,6 +42,7 @@
       <div class="innhold">
         <div class="breddeinnhold">
           <h2>NYHETER</h2>
+          <div class="nyhetsartikkler">
             <a href="nyheter/artikkel1.php">
               <div class="nyhet1">
                 <div class="bilde1">
@@ -74,7 +75,8 @@
                 </div>
               </div>
             </a>
-            <br>
+          </div>
+          <br>
         </div>
       </div>
       <div class="bunntekst">
