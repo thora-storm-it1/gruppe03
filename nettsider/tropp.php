@@ -41,7 +41,8 @@
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
         <div class="breddeinnhold1">
-          <?php /*
+          <div class="tropp">
+          <?php
             //Tilkoblingsinformasjon
             $tjener = "localhost";
             $brukernavn = "root";
@@ -58,45 +59,36 @@
             $sql = "SELECT * FROM spiller";
             $resultat = $kobling->query($sql);
             echo "<br>";
-            //Starter tabellen
-            echo "<table>";
-            //Lager overskrifter
-            echo "<tr>
-                    <th> Fornavn </th>
-                    <th> Etternavn </th>
-                    <th> Posisjon </th>
-                    <th> Draktnummer </th>
-                    <th> Nasjonalitet </th>
-                    <th> Spilleren ankom </th>
-                    <th> År i klubben </th>
-                    //Henter ut resultatene fra en rad og legger dem i et array
-                    </tr>";
-                    while($rad = $resultat->fetch_assoc()) {
-                      //Lagrer variablene i en rad hver for seg
-                      $spillerid = $rad["spiller-id"];
-                      $spillerfornavn = $rad["spiller-fornavn"];
-                      $spilleretternavn = $rad["spiller-etternavn"];
-                      $spillerposisjon = $rad["spiller-posisjon"];
-                      $spillerdraktnummer = $rad["spiller-draktnummer"];
-                      $spillernasjonalitet = $rad["spiller-nasjonalitet"];
-                      $spillerankomst = $rad["spiller-ankomst"];
-                      $årstall = date("Y");
-                      $opphold = $årstall - $spillerankomst;
-                      //Skriver ut verdiene i tabellen
-                      echo "<tr>
-                              <td> $spillerfornavn </td>
-                              <td> $spilleretternavn </td>
-                              <td> $spillerposisjon </td>
-                              <td> $spillerdraktnummer </td>
-                              <td> $spillernasjonalitet </td>
-                              <td> $spillerankomst </td>
-                              <td> $opphold </td>
-                            </tr>";
+              echo "<div class='spillerrad'>";
+                //Henter ut resultatene fra en rad og legger dem i et array
+                while($rad = $resultat->fetch_assoc()) {
+                  //Lagrer variablene i en rad hver for seg
+                  $spillerid = $rad["spiller-id"];
+                  $spillerfornavn = $rad["spiller-fornavn"];
+                  $spilleretternavn = $rad["spiller-etternavn"];
+                  $spillerposisjon = $rad["spiller-posisjon"];
+                  $spillerdraktnummer = $rad["spiller-draktnummer"];
+                  $spillernasjonalitet = $rad["spiller-nasjonalitet"];
+                  $spillerankomst = $rad["spiller-ankomst"];
+                  $årstall = date("Y");
+                  $opphold = $årstall - $spillerankomst;
+
+                    if ($spillerposisjon == "Målvakt") {
+                        echo "<div class='spiller'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <ul>
+                                  <li> Navn: $spillerfornavn $spilleretternavn </li>
+                                  <li> Posisjon: $spillerposisjon </li>
+                                  <li> Draktnummer: $spillerdraktnummer </li>
+                                  <li> Nasjonalitet: $spillernasjonalitet </li>
+                                  <li> Ankomst: $spillerankomst </li>
+                                  <li> År i klubben: $opphold </li>
+                                </ul>
+                              </div>";
                     }
-            //Avslutter tabellen
-            echo "</table>";
-          */
-
+                }
+          ?>
+          <?php
             //Tilkoblingsinformasjon
             $tjener = "localhost";
             $brukernavn = "root";
@@ -113,51 +105,128 @@
             $sql = "SELECT * FROM spiller";
             $resultat = $kobling->query($sql);
             echo "<br>";
-            echo "<div class='tropp'>";
-            //Henter ut resultatene fra en rad og legger dem i et array
-            while($rad = $resultat->fetch_assoc()) {
-              //Lagrer variablene i en rad hver for seg
-              $spillerid = $rad["spiller-id"];
-              $spillerfornavn = $rad["spiller-fornavn"];
-              $spilleretternavn = $rad["spiller-etternavn"];
-              $spillerposisjon = $rad["spiller-posisjon"];
-              $spillerdraktnummer = $rad["spiller-draktnummer"];
-              $spillernasjonalitet = $rad["spiller-nasjonalitet"];
-              $spillerankomst = $rad["spiller-ankomst"];
-              $årstall = date("Y");
-              $opphold = $årstall - $spillerankomst;
+              echo "<div class='spillerrad'>";
+                //Henter ut resultatene fra en rad og legger dem i et array
+                while($rad = $resultat->fetch_assoc()) {
+                  //Lagrer variablene i en rad hver for seg
+                  $spillerid = $rad["spiller-id"];
+                  $spillerfornavn = $rad["spiller-fornavn"];
+                  $spilleretternavn = $rad["spiller-etternavn"];
+                  $spillerposisjon = $rad["spiller-posisjon"];
+                  $spillerdraktnummer = $rad["spiller-draktnummer"];
+                  $spillernasjonalitet = $rad["spiller-nasjonalitet"];
+                  $spillerankomst = $rad["spiller-ankomst"];
+                  $årstall = date("Y");
+                  $opphold = $årstall - $spillerankomst;
 
-
-              if ($spillerposisjon == "Målvakt") {
-                echo "<div class='spiller'>
-                        <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
-                        <ul>
-                          <li> Navn: $spillerfornavn $spilleretternavn </li>
-                          <li> Posisjon: $spillerposisjon </li>
-                          <li> Draktnummer: $spillerdraktnummer </li>
-                          <li> Nasjonalitet: $spillernasjonalitet </li>
-                          <li> Ankomst: $spillerankomst </li>
-                          <li> År i klubben: $opphold </li>
-                        </ul>
-                      </div>";
-              }
-
-              elseif ($spillerposisjon == "Forsvarsspiller") {
-                echo "<div class='spiller'>
-                        <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
-                        <ul>
-                          <li> Navn: $spillerfornavn $spilleretternavn </li>
-                          <li> Posisjon: $spillerposisjon </li>
-                          <li> Draktnummer: $spillerdraktnummer </li>
-                          <li> Nasjonalitet: $spillernasjonalitet </li>
-                          <li> Ankomst: $spillerankomst </li>
-                          <li> År i klubben: $opphold </li>
-                        </ul>
-                      </div>";
-              }
-            }
-            echo "</div>";
+                    if ($spillerposisjon == "Forsvarsspiller") {
+                        echo "<div class='spiller'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <ul>
+                                  <li> Navn: $spillerfornavn $spilleretternavn </li>
+                                  <li> Posisjon: $spillerposisjon </li>
+                                  <li> Draktnummer: $spillerdraktnummer </li>
+                                  <li> Nasjonalitet: $spillernasjonalitet </li>
+                                  <li> Ankomst: $spillerankomst </li>
+                                  <li> År i klubben: $opphold </li>
+                                </ul>
+                              </div>";
+                    }
+                }
           ?>
+          <?php
+            //Tilkoblingsinformasjon
+            $tjener = "localhost";
+            $brukernavn = "root";
+            $passord = "";
+            $database = "rosenborg";
+            //Opretter en kobling
+            $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
+            $kobling->set_charset("utf8");
+            //Sjekker om koblingen fungerer
+            if ($kobling->connect_error) {
+              die("Noe gikk galt: " . $kobling->connect_error);
+            }
+            //Definerer SQL-spørringen og henter ut resultatet
+            $sql = "SELECT * FROM spiller";
+            $resultat = $kobling->query($sql);
+            echo "<br>";
+              echo "<div class='spillerrad'>";
+                //Henter ut resultatene fra en rad og legger dem i et array
+                while($rad = $resultat->fetch_assoc()) {
+                  //Lagrer variablene i en rad hver for seg
+                  $spillerid = $rad["spiller-id"];
+                  $spillerfornavn = $rad["spiller-fornavn"];
+                  $spilleretternavn = $rad["spiller-etternavn"];
+                  $spillerposisjon = $rad["spiller-posisjon"];
+                  $spillerdraktnummer = $rad["spiller-draktnummer"];
+                  $spillernasjonalitet = $rad["spiller-nasjonalitet"];
+                  $spillerankomst = $rad["spiller-ankomst"];
+                  $årstall = date("Y");
+                  $opphold = $årstall - $spillerankomst;
+
+                    if ($spillerposisjon == "Midtbanespiller") {
+                        echo "<div class='spiller'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <ul>
+                                  <li> Navn: $spillerfornavn $spilleretternavn </li>
+                                  <li> Posisjon: $spillerposisjon </li>
+                                  <li> Draktnummer: $spillerdraktnummer </li>
+                                  <li> Nasjonalitet: $spillernasjonalitet </li>
+                                  <li> Ankomst: $spillerankomst </li>
+                                  <li> År i klubben: $opphold </li>
+                                </ul>
+                              </div>";
+                    }
+                }
+          ?>
+          <?php
+            //Tilkoblingsinformasjon
+            $tjener = "localhost";
+            $brukernavn = "root";
+            $passord = "";
+            $database = "rosenborg";
+            //Opretter en kobling
+            $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
+            $kobling->set_charset("utf8");
+            //Sjekker om koblingen fungerer
+            if ($kobling->connect_error) {
+              die("Noe gikk galt: " . $kobling->connect_error);
+            }
+            //Definerer SQL-spørringen og henter ut resultatet
+            $sql = "SELECT * FROM spiller";
+            $resultat = $kobling->query($sql);
+            echo "<br>";
+              echo "<div class='spillerrad'>";
+                //Henter ut resultatene fra en rad og legger dem i et array
+                while($rad = $resultat->fetch_assoc()) {
+                  //Lagrer variablene i en rad hver for seg
+                  $spillerid = $rad["spiller-id"];
+                  $spillerfornavn = $rad["spiller-fornavn"];
+                  $spilleretternavn = $rad["spiller-etternavn"];
+                  $spillerposisjon = $rad["spiller-posisjon"];
+                  $spillerdraktnummer = $rad["spiller-draktnummer"];
+                  $spillernasjonalitet = $rad["spiller-nasjonalitet"];
+                  $spillerankomst = $rad["spiller-ankomst"];
+                  $årstall = date("Y");
+                  $opphold = $årstall - $spillerankomst;
+
+                    if ($spillerposisjon == "Angrepsspiller") {
+                        echo "<div class='spiller'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <ul>
+                                  <li> Navn: $spillerfornavn $spilleretternavn </li>
+                                  <li> Posisjon: $spillerposisjon </li>
+                                  <li> Draktnummer: $spillerdraktnummer </li>
+                                  <li> Nasjonalitet: $spillernasjonalitet </li>
+                                  <li> Ankomst: $spillerankomst </li>
+                                  <li> År i klubben: $opphold </li>
+                                </ul>
+                              </div>";
+                    }
+                }
+          ?>
+          </div>
         </div>
       </div>
       <div class="bunntekst">

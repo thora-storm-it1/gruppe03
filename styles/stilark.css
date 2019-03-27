@@ -145,24 +145,28 @@ body  {
           }
         .tropp {
           display: flex;
-          flex-flow: row wrap;
-          background-color: red;
-          max-width: 1500px;
-          justify-content: center;
+          flex-flow: column nowrap;
+          justify-content: flex-start;
         }
-          .spiller {
-            padding: 15px;
-            margin: 15px;
+          .spillerrad {
             display: flex;
-            flex-flow: column nowrap;
-            background-color: black;
-            color: white;
+            flex-flow: row wrap;
+            justify-content: center;
           }
-            .spiller ul li {
-              display: block;
-              margin: 3px;
-              font-weight: bold;
+            .spiller {
+              padding: 15px;
+              margin: 15px;
+              display: flex;
+              flex-flow: column nowrap;
+              background-color: black;
+              color: white;
+              width: 300px;
             }
+              .spiller ul li {
+                display: block;
+                margin: 3px;
+                font-weight: bold;
+              }
       * {box-sizing:border-box}
         /* Slideshow container */
         .slideshow-container {
@@ -405,12 +409,17 @@ body  {
         .innhold h2 {
           font-size: 40px;
         }
-          .tropp {
+        .tropp {
+          display: flex;
+          flex-flow: column wrap;
+        }
+          .spillerrad {
             display: flex;
             flex-flow: row wrap;
-            background-color: red;
-            max-width: 1500px;
             justify-content: flex-start;
+            width: 100%;
+            margin: 10px;
+            box-shadow: 10px 10px 10px 10px black;
           }
             .spiller {
               padding: 15px;
@@ -419,7 +428,7 @@ body  {
               flex-flow: column nowrap;
               background-color: black;
               color: white;
-              width: 30%;
+              width: 350px;
             }
               .spiller ul li {
                 display: block;
