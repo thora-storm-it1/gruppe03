@@ -59,6 +59,7 @@
             $sql = "SELECT * FROM spiller";
             $resultat = $kobling->query($sql);
             echo "<br>";
+            echo "<h3> Målvakter: </h3>";
               echo "<div class='spillerrad'>";
                 //Henter ut resultatene fra en rad og legger dem i et array
                 while($rad = $resultat->fetch_assoc()) {
@@ -87,6 +88,7 @@
                               </div>";
                     }
                 }
+              echo "</div>";
           ?>
           <?php
             //Tilkoblingsinformasjon
@@ -105,6 +107,7 @@
             $sql = "SELECT * FROM spiller";
             $resultat = $kobling->query($sql);
             echo "<br>";
+            echo "<h3> Forsvarsspillere: </h3>";
               echo "<div class='spillerrad'>";
                 //Henter ut resultatene fra en rad og legger dem i et array
                 while($rad = $resultat->fetch_assoc()) {
@@ -133,6 +136,7 @@
                               </div>";
                     }
                 }
+              echo "</div>";
           ?>
           <?php
             //Tilkoblingsinformasjon
@@ -151,6 +155,7 @@
             $sql = "SELECT * FROM spiller";
             $resultat = $kobling->query($sql);
             echo "<br>";
+            echo "<h3> Midtbanespillere: </h3>";
               echo "<div class='spillerrad'>";
                 //Henter ut resultatene fra en rad og legger dem i et array
                 while($rad = $resultat->fetch_assoc()) {
@@ -179,6 +184,7 @@
                               </div>";
                     }
                 }
+              echo "</div>";
           ?>
           <?php
             //Tilkoblingsinformasjon
@@ -197,6 +203,7 @@
             $sql = "SELECT * FROM spiller";
             $resultat = $kobling->query($sql);
             echo "<br>";
+            echo "<h3> Angripere: </h3>";
               echo "<div class='spillerrad'>";
                 //Henter ut resultatene fra en rad og legger dem i et array
                 while($rad = $resultat->fetch_assoc()) {
@@ -211,7 +218,7 @@
                   $årstall = date("Y");
                   $opphold = $årstall - $spillerankomst;
 
-                    if ($spillerposisjon == "Angrepsspiller") {
+                    if ($spillerposisjon == "Angriper") {
                         echo "<div class='spiller'>
                                 <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
                                 <ul>
@@ -225,6 +232,7 @@
                               </div>";
                     }
                 }
+              echo "</div>"
           ?>
           </div>
         </div>
