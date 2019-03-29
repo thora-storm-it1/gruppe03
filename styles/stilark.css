@@ -30,17 +30,46 @@ body  {
   .kommentar {
     text-align: : flex-start;
     padding: 2vh;
+
+  background-color: #eeeeee;
   }
+  .innhold_om_rbk {
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 55%;
+    background-color: white;
+    align-self: center;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ opacity: 0.75;
+  }
+
+
+  .background {
+    background-image: url(../bilder/background2.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .navn {
   font-weight: bold;
 }
 
   .unit {
-    border-top: 2px solid #8d6b36;
+
     max-width: 1000px;
     width: 100%;
     font-family:  Gadget, sans-serif;
     padding-top: 20px;
+    border-bottom:  2px solid #8d6b36;
 
   }
     .topptekst {
