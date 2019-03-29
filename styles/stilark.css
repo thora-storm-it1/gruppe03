@@ -29,7 +29,7 @@ body  {
 
   .kommentar {
     text-align: : flex-start;
-    padding: 2vh;
+    padding: 2px;
   }
 .navn {
   font-weight: bold;
@@ -164,9 +164,12 @@ body  {
               color: white;
               width: 300px;
             }
+              .spiller ul {
+                list-style-type: none;
+                margin: 16px;
+                padding-left: 0px;
+              }
               .spiller ul li {
-                display: block;
-                margin: 3px;
                 font-weight: bold;
               }
               .spiller img {
@@ -434,10 +437,12 @@ body  {
               background-color: black;
               color: white;
               width: 30%;
+              min-width: 300px;
+              height: 500px;
+
             }
               .spiller ul li {
                 display: block;
-                margin: 3px;
                 font-weight: bold;
               }
         * {box-sizing:border-box}
