@@ -76,7 +76,7 @@
 
                     if ($spillerposisjon == "Målvakt") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $spillerfornavn $spilleretternavn </li>
                                   <li> Posisjon: $spillerposisjon </li>
@@ -124,7 +124,7 @@
 
                     if ($spillerposisjon == "Forsvarsspiller") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $spillerfornavn $spilleretternavn </li>
                                   <li> Posisjon: $spillerposisjon </li>
@@ -172,7 +172,7 @@
 
                     if ($spillerposisjon == "Midtbanespiller") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $spillerfornavn $spilleretternavn </li>
                                   <li> Posisjon: $spillerposisjon </li>
@@ -220,7 +220,7 @@
 
                     if ($spillerposisjon == "Angriper") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='auto' height='auto'>
+                                <img src='../bilder/$spillerfornavn.jpg' alt='$spillerfornavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $spillerfornavn $spilleretternavn </li>
                                   <li> Posisjon: $spillerposisjon </li>

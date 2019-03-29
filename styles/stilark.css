@@ -171,6 +171,7 @@ body  {
               }
               .spiller ul li {
                 font-weight: bold;
+                font-family: sans-serif;
               }
               .spiller img {
                 margin: 10px;
@@ -433,6 +434,7 @@ body  {
               padding: 15px;
               margin: 15px;
               display: flex;
+              align-items: center;
               flex-flow: column nowrap;
               background-color: black;
               color: white;
