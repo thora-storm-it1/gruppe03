@@ -29,7 +29,7 @@ body  {
 
   .kommentar {
     text-align: : flex-start;
-    padding: 2vh;
+    padding: 2px;
 
   background-color: #eeeeee;
   }
@@ -193,10 +193,14 @@ body  {
               color: white;
               width: 300px;
             }
+              .spiller ul {
+                list-style-type: none;
+                margin: 16px;
+                padding-left: 0px;
+              }
               .spiller ul li {
-                display: block;
-                margin: 3px;
                 font-weight: bold;
+                font-family: sans-serif;
               }
               .spiller img {
                 margin: 10px;
@@ -459,14 +463,17 @@ body  {
               padding: 15px;
               margin: 15px;
               display: flex;
+              align-items: center;
               flex-flow: column nowrap;
               background-color: black;
               color: white;
               width: 30%;
+              min-width: 300px;
+              height: 500px;
+
             }
               .spiller ul li {
                 display: block;
-                margin: 3px;
                 font-weight: bold;
               }
         * {box-sizing:border-box}
