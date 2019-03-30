@@ -40,7 +40,7 @@
       </div>
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
-        <div class="breddeinnhold">
+        <div class="breddeinnhold1">
           <h2> NYHETER </h2>
           <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) begynner -->
           <!-- Slideshow container -->
