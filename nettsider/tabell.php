@@ -40,7 +40,7 @@
       </div>
       <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
-        <iframe class="tabell" src="https://vglive.no/turneringer/eliteserien-2019/1877/tabell" height="100%" width="75%" style="border:none;"></iframe>
+        <iframe class="tabell" src="https://vglive.no/turneringer/eliteserien-2019/1877/tabell" height="140%" width="100%" style="border:none;"></iframe>
       </div>
       <div class="bunntekst">
         <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">

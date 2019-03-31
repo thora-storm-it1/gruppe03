@@ -28,10 +28,15 @@ body  {
   }
 
   .kommentar {
-    text-align: : flex-start;
+    text-align:  flex-start;
     padding: 2px;
+    background-color: #eeeeee;
+  }
 
-  background-color: #eeeeee;
+  .tabell {
+align-self: center;
+margin: auto;
+
   }
   .innhold_om_rbk {
     padding: 15px;
@@ -375,9 +380,10 @@ body  {
         flex-flow: row wrap;
         justify-content: flex-start;
         align-items: flex-end;
+
       }
         .topptekst img  {
-          margin-right: 10px;
+          margin-right: 50px;
         }
       .meny1 {
         display: none;

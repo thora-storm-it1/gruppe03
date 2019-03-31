@@ -107,7 +107,7 @@
             $sql = "SELECT * FROM spiller";
             $resultat = $kobling->query($sql);
             echo "<br>";
-            echo "<h3> Forsvarsspillere: </h3>";
+            echo "<h3> FOrsvarsspillere: </h3>";
               echo "<div class='spillerrad'>";
                 //Henter ut resultatene fra en rad og legger dem i et array
                 while($rad = $resultat->fetch_assoc()) {

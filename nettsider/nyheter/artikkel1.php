@@ -42,8 +42,8 @@
       <div class="innhold">
         <br><br>
 
-          <iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="250%" width="70%" style="border:none;"></iframe>
-        
+          <iframe src="http://www.rbk.no/nyheter/setter-kursen-for-marbella" height="300%" width="100%" style="border:none;"></iframe>
+
         <?php
 
 
@@ -99,9 +99,9 @@ if(isset($_POST["leggtil"])) {
             echo "<div class='unit'>
             <div class='navn'>
             $name :
-            </div>
+            </div> <br>
             <div class='kommentar'>
-            $comment <br>
+          <br>  $comment <br><br>
            </div>
            </div>";
           }

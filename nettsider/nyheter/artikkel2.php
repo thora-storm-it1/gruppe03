@@ -25,7 +25,6 @@
             <a href="../../nettsider/tabell.php"> TABELL/KAMPER </a>
             <a href="../../nettsider/om_rbk.php"> OM RBK </a>
           </div>
-          <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
         </div>
       </div>
       <!-- Nedfallsmeny fra w3schools (https://www.w3schools.com/howto/howto_css_dropdown.asp) slutter -->
@@ -39,72 +38,96 @@
           <li><a href="../../nettsider/om_rbk.php"> OM RBK </a></li>
         </ul>
       </div>
+      <!-- Meny som blir på topen av side fra w3schools (https://www.w3schools.com/howto/howto_css_sticky_element.asp) slutter -->
       <div class="innhold">
-        <div class="breddeinnhold">
-          <iframe src="http://www.rbkweb.no/vis/13970" height="180%" width="100%" style="border:none;"></iframe>
-          <?php
-            // Tilkoblingsinformasjon
-            $tjener = "localhost";
-            $brukernavn = "root";
-            $passord = "";
-            $database = "commentsection";
-            // Opprette en kobling
-            $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
-            // Sjekk om koblingen virker
-            if ($kobling->connect_error) {
-              die("Noe gikk galt: " . $kobling->connect_error);
-            } else {}
-            // Angi UTF-8 som tegnsett
-            $kobling->set_charset("utf8");
-            if(isset($_POST["leggtil"])) {
-             // Lagrer skjemafeltene i enklere navn
-             $name = $_POST["name"];
-             $comment = $_POST["comment"];
-             $sql = "INSERT INTO comments2 (name, comment) VALUES ('$name', '$comment')";
-             if($kobling->query($sql)) {
-                 // echo "Spørringen $sql ble gjennomført.";
-             } else {
-                 echo "Noe gikk galt med spørringen $sql ($kobling->error).";
-             }
-            }
-          ?>
+        <br><br>
+
+          <iframe src="https://www.rbk.no/nyheter/ranheim-vant-byderbyet" height="415%" width="100%" style="border:none;"></iframe>
+
+        <?php
+
+
+        // Tilkoblingsinformasjon
+        $tjener = "localhost";
+        $brukernavn = "root";
+        $passord = "";
+        $database = "commentsection";
+
+        // Opprette en kobling
+        $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
+
+        // Sjekk om koblingen virker
+        if ($kobling->connect_error) {
+            die("Noe gikk galt: " . $kobling->connect_error);
+        } else {
+
+        }
+
+        // Angi UTF-8 som tegnsett
+        $kobling->set_charset("utf8");
+
+
+if(isset($_POST["leggtil"])) {
+   // Lagrer skjemafeltene i enklere navn
+   $name = $_POST["name"];
+   $comment = $_POST["comment"];
+
+
+   $sql = "INSERT INTO comments2 (name, comment) VALUES ('$name', '$comment')";
+
+
+   if($kobling->query($sql)) {
+       // echo "Spørringen $sql ble gjennomført.";
+   } else {
+       echo "Noe gikk galt med spørringen $sql ($kobling->error).";
+   }
+
+ }
+        ?>
+
           <h3>KOMMENTARER:</h3>
-          <br>
-          <?php
-            $sql = "SELECT * FROM comments2 ";
-            $resultat = $kobling->query($sql);
-            while($rad = $resultat->fetch_assoc()) {
-              $name = $rad["name"];
-              $comment = $rad["comment"];
-              echo "<div class='unit'>
-              <div class='navn'>
-              $name :
-              </div>
-              <div class='kommentar'>
-              $comment <br>
-             </div>
-             </div>";
-            }
-            echo "</table>"; // Avslutter tabellen
-          ?>
-          <br><br>
+        <br>
+
+        <?php
+          $sql = "SELECT * FROM comments2 ";
+          $resultat = $kobling->query($sql);
+
+          while($rad = $resultat->fetch_assoc()) {
+            $name = $rad["name"];
+            $comment = $rad["comment"];
+
+            echo "<div class='unit'>
+            <div class='navn'>
+            $name :
+            </div>
+            <div class='kommentar'>
+            <br> $comment <br> <br>
+           </div>
+           </div>";
+          }
+          echo "</table>"; // Avslutter tabellen
+        ?>
+
+        <br><br>
+
           <script>
             //thank you god. I promise never to use PHP again
             if ( window.history.replaceState ) {
             window.history.replaceState( null, null, window.location.href );
             }
           </script>
+
           <form  method='post'>
             Navn: <br>
-            <input class="navn" type="text" name="name" placeholder="Ditt navn.."><br><br>
-            Kommentar: <br>
+            <input type="text" name="name" placeholder="Ditt navn.."><br><br>
+            KOmmentar: <br>
             <textarea name='comment' placeholder="Skriv kommentar.."></textarea><br>
-            <input class="kommentar" type='submit'  name='leggtil' value="Legg til"><br>
+            <input type='submit'  name='leggtil' value="Legg til"><br>
           </form>
-        </div>
+
       </div>
       <div class="bunntekst">
-        <img src="../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
+        <img src="../../bilder/rosenborg.png" alt="ROSENBORG" width="100" height="auto">
         <h5> VelkOmmen til en UOFFISIELL nettside Om ROsenbOrg Ballklub laget sOm et skOleprOsjekt i InfOrmasjOnsteknOlOgi 1. FOr å kOmme til ROsenbOrg Ballklubs faktiske nettside, klikk <a href="http://www.rbk.no/" target="_blank">her</a>. </h5>
         <p> Du kan nå RBK på: </p>
         <div class="sosialemedier">
