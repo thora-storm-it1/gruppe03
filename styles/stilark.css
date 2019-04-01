@@ -166,16 +166,16 @@ margin: auto;
         }
           .tittel1, .tittel2, .tittel3 h3 {
             text-decoration: none;
-            color: #8E6B33;
+            color: black;
           }
           .nyhet1:hover h3 {
-            color: black;
+            color: #8E6B33;
           }
           .nyhet2:hover h3 {
-            color: black;
+            color: #8E6B33;
           }
           .nyhet3:hover h3 {
-            color: black;
+            color: #8E6B33;
           }
         .tropp {
           display: flex;
@@ -441,13 +441,13 @@ margin: auto;
               padding: 10px;
             }
             .nyhet1:hover h3 {
-              color: black;
+              color: #8E6B33;
             }
             .nyhet2:hover h3 {
-              color: black;
+              color: #8E6B33;
             }
             .nyhet3:hover h3 {
-              color: black;
+              color: #8E6B33;
             }
         .innhold h2 {
           font-size: 40px;
