@@ -76,7 +76,7 @@
 
                     if ($posisjon == "Målvakt") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$fornavn.jpg' alt='$fornavn' width='250' height='auto'>
+                                <img src='../bilder/$etternavn.jpg' alt='$etternavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $fornavn $etternavn </li>
                                   <li> Posisjon: $posisjon </li>
@@ -107,7 +107,7 @@
             $sql = "SELECT * FROM spiller ORDER BY draktnummer ASC";
             $resultat = $kobling->query($sql);
             echo "<br>";
-            echo "<h3> Forsvarspillere: </h3>";
+            echo "<h3> FOrsvarspillere: </h3>";
               echo "<div class='spillerrad'>";
                 //Henter ut resultatene fra en rad og legger dem i et array
                 while($rad = $resultat->fetch_assoc()) {
@@ -124,7 +124,7 @@
 
                     if ($posisjon == "Forsvarsspiller") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$fornavn.jpg' alt='$fornavn' width='250' height='auto'>
+                                <img src='../bilder/$etternavn.jpg' alt='$etternavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $fornavn $etternavn </li>
                                   <li> Posisjon: $posisjon </li>
@@ -172,7 +172,7 @@
 
                     if ($posisjon == "Midtbanespiller") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$fornavn.jpg' alt='$fornavn' width='250' height='auto'>
+                                <img src='../bilder/$etternavn.jpg' alt='$etternavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $fornavn $etternavn </li>
                                   <li> Posisjon: $posisjon </li>
@@ -220,7 +220,7 @@
 
                     if ($posisjon == "Angrepsspiller") {
                         echo "<div class='spiller'>
-                                <img src='../bilder/$fornavn.jpg' alt='$fornavn' width='250' height='auto'>
+                                <img src='../bilder/$etternavn.jpg' alt='$etternavn' width='250' height='auto'>
                                 <ul>
                                   <li> Navn: $fornavn $etternavn </li>
                                   <li> Posisjon: $posisjon </li>
