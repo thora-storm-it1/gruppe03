@@ -200,10 +200,10 @@
               die("Noe gikk galt: " . $kobling->connect_error);
             }
             //Definerer SQL-spørringen og henter ut resultatet
-            $sql = "SELECT * FROM spiller";
+            $sql = "SELECT * FROM spiller ORDER BY draktnummer ASC";
             $resultat = $kobling->query($sql);
             echo "<br>";
-            echo "<h3> Angripere: </h3>";
+            echo "<h3> Angrepsspiller: </h3>";
               echo "<div class='spillerrad'>";
                 //Henter ut resultatene fra en rad og legger dem i et array
                 while($rad = $resultat->fetch_assoc()) {
