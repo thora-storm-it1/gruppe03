@@ -111,6 +111,12 @@
             }
           </script>
           <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
+<h2>TROPP</h2>
+<div class="banner_tropp">
+
+</div>
+
+
         </div>
       </div>
       <div class="bunntekst">
