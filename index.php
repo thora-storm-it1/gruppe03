@@ -111,9 +111,10 @@
             }
           </script>
           <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
-<h2>TROPP</h2>
+<br><br>
+<h2>TROPP</h2> <br>
 <div class="banner_tropp">
-<img src="bilder/banner.jpg" width="75%" height="auto">
+<a href="nettsider/tropp.php"><img src="bilder/banner.jpg" width="100%" height="auto"></a>
 </div>
 <br><br><br>
 
