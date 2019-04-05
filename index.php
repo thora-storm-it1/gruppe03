@@ -113,9 +113,9 @@
           <!-- Lysbildekode fra w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) slutter -->
 <h2>TROPP</h2>
 <div class="banner_tropp">
-
+<img src="bilder/banner.jpg" width="75%" height="auto">
 </div>
-
+<br><br><br>
 
         </div>
       </div>
