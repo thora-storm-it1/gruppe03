@@ -45,7 +45,7 @@ margin: auto;
   }
 
 .banner_tropp a:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
 }
   .innhold_om_rbk {
     padding: 15px;
@@ -103,6 +103,7 @@ margin: auto;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       font-family: "Hansief", "Arial Black", Gadget, sans-serif;
     }
+      /* Noe kode fra w3schools om layouten til dropdownmeny */
       .dropdown {
         position: relative;
         display: inline-block;
@@ -165,8 +166,8 @@ margin: auto;
         max-width: 1000px;
       }
         .breddeinnhold a {
-            text-decoration: none;
-            color: white;
+          text-decoration: none;
+          color: white;
         }
         .breddeinnhold a:hover {
           color: white;
@@ -220,6 +221,7 @@ margin: auto;
               .spiller img {
                 margin: 10px;
               }
+      /* Mye CSS fra w#schools til galleriet */
       * {box-sizing:border-box}
         /* Slideshow container */
         .slideshow-container {
@@ -346,6 +348,7 @@ margin: auto;
         width: 60px;
         transition: opacity 0.3s;
       }
+      /* Kode fra w3schools med noen justeringer for sosiale-media-linkene i bunnteksten */
       .fa:hover {
         opacity: 0.7;
       }
@@ -397,6 +400,7 @@ margin: auto;
       .meny1 {
         display: none;
       }
+      /* CSS fra w3schools om inlinenmeny */
       .meny2 {
         display: block;
         position: sticky;
@@ -491,6 +495,7 @@ margin: auto;
                 display: block;
                 font-weight: bold;
               }
+        /* CSS for galleriet igjen */
         * {box-sizing:border-box}
           /* Slideshow container */
           .slideshow-container {
@@ -600,6 +605,7 @@ margin: auto;
         .bunntekst h5 a:hover {
             color: white;
         }
+        /* CSS for sosiale media igjen */
         .fa {
           padding: 20px;
           font-size: 20px;
