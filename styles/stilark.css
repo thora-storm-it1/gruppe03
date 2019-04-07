@@ -672,6 +672,7 @@ width: 100%;
 
 }
 
+/* noe av css'en til kommentarfeltet er hentet fra w3 schools, https://www.w3schools.com/css/css_form.asp */
 input[type=text] {
   width: 100%;
   padding: 12px 20px;

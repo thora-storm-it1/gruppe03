@@ -51,7 +51,7 @@
         $tjener = "localhost";
         $brukernavn = "root";
         $passord = "";
-        $database = "comments";
+        $database = "commentsection";
 
         // Opprette en kobling
         $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
@@ -111,7 +111,7 @@ if(isset($_POST["leggtil"])) {
         <br><br>
 
           <script>
-            //thank you god. I promise never to use PHP again
+      //Dette scriptet fikk vi av Aasmund, den forhindrer nettleseren å sende samme sql spørring flere ganger
             if ( window.history.replaceState ) {
             window.history.replaceState( null, null, window.location.href );
             }
